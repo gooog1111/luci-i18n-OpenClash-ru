@@ -1,0 +1,4208 @@
+# Файл перевода OpenClash на русский язык
+# Внимание: Имена собственные, технические термины и названия сервисов не переведены
+
+msgid "OpenClash"
+msgstr "OpenClash"
+
+msgid "A Clash Client For OpenWrt"
+msgstr "Клиент Clash для OpenWrt, поддерживающий Shadowsocks(R), Vmess, Trojan, Snell и другие протоколы с гибкими правилами"
+
+msgid "Plugin Settings"
+msgstr "Настройки плагина"
+
+msgid "Credits"
+msgstr "Техподдержка"
+
+msgid "Overviews"
+msgstr "Статус работы"
+
+msgid "Overwrite Settings"
+msgstr "Переопределение настроек"
+
+msgid "Rule Providers Append"
+msgstr "Дополнительные правила"
+
+msgid "Game Rules Append"
+msgstr "Дополнительные игровые правила"
+
+msgid "Other Rule Providers Append"
+msgstr "Дополнительные сторонние правила"
+
+msgid "Custom Rule Providers Append"
+msgstr "Дополнительные пользовательские правила"
+
+msgid "General Settings"
+msgstr "Основные настройки"
+
+msgid "Settings"
+msgstr "Настройки"
+
+msgid "Config Subscribe"
+msgstr "Подписка на конфигурацию"
+
+msgid "Add Config File"
+msgstr "Добавить файл конфигурации"
+
+msgid "Config Subscribe Edit"
+msgstr "Редактирование подписки"
+
+msgid "Rules Update"
+msgstr "Обновление сторонних правил"
+
+msgid "Dashboard Settings"
+msgstr "Внешнее управление"
+
+msgid "Enabled"
+msgstr "Включено"
+
+msgid "Disabled"
+msgstr "Выключено"
+
+msgid "Running"
+msgstr "Запущено"
+
+msgid "Not Running"
+msgstr "Не запущено"
+
+msgid "(Enable or Disable)"
+msgstr "(Применять только выбранные настройки)"
+
+msgid "Config Normal"
+msgstr "Проверка пройдена"
+
+msgid "Config Abnormal"
+msgstr "Проверка не пройдена"
+
+msgid "File Not Exist"
+msgstr "Файл не существует"
+
+msgid "Not Set"
+msgstr "Не задано"
+
+msgid "Server Logs"
+msgstr "Журнал работы"
+
+msgid "Debug Logs"
+msgstr "Журнал отладки"
+
+msgid "Generate Logs"
+msgstr "Создать журнал"
+
+msgid "Click to Generate"
+msgstr "Нажмите для создания"
+
+msgid "Enable OpenClash"
+msgstr "Запустить OpenClash"
+
+msgid "Disable OpenClash"
+msgstr "Остановить OpenClash"
+
+msgid "Commit Settings"
+msgstr "Сохранить настройки"
+
+msgid "Apply Settings"
+msgstr "Применить настройки"
+
+msgid "Download Config"
+msgstr "Скачать конфигурацию"
+
+msgid "Copy Config"
+msgstr "Копировать конфигурацию"
+
+msgid "Update Config"
+msgstr "Обновить конфигурацию"
+
+msgid "Download Running Config"
+msgstr "Скачать текущую конфигурацию"
+
+msgid "Select Mode"
+msgstr "*Режим работы"
+
+msgid "redir-host"
+msgstr "Redir-Host (совместимый режим)"
+
+msgid "fake-ip"
+msgstr "Fake-IP (улучшенный режим)"
+
+msgid "redir-host(tun mode)"
+msgstr "Redir-Host (TUN режим)"
+
+msgid "fake-ip(tun mode)"
+msgstr "Fake-IP (TUN режим)"
+
+msgid "redir-host-mix(tun mix mode)"
+msgstr "Redir-Host (TUN-смешанный режим) 【UDP-TUN, TCP-пересылка】"
+
+msgid "fake-ip-mix(tun mix mode)"
+msgstr "Fake-IP (TUN-смешанный режим) 【UDP-TUN, TCP-пересылка】"
+
+msgid "Select Mode For OpenClash Work, Try Flush DNS Cache If Network Error"
+msgstr "Выберите режим работы. При проблемах с сетью попробуйте очистить DNS-кэш"
+
+msgid "Proxy Mode"
+msgstr "Режим прокси"
+
+msgid "Select Proxy Mode"
+msgstr "Выберите режим прокси по умолчанию"
+
+msgid "Rule Proxy Mode"
+msgstr "Rule【Прокси по правилам】"
+
+msgid "Global Proxy Mode"
+msgstr "Global【Глобальный прокси (нужно вручную выбрать ноду в панели управления)】"
+
+msgid "Direct Proxy Mode"
+msgstr "Direct【Прямое подключение】"
+
+msgid "Select Stack Type"
+msgstr "Тип сетевого стека"
+
+msgid "Select Stack Type For TUN Mode, According To The Running Speed on Your Machine"
+msgstr "Выберите подходящий сетевой стек для TUN режима в зависимости от производительности"
+
+msgid "China IP Route"
+msgstr "Экспериментально: Обход IP указанных регионов"
+
+msgid "China IPv6 Route"
+msgstr "Экспериментально: Обход IPv6 указанных регионов"
+
+msgid "Bypass Mainland China"
+msgstr "Обход материкового Китая"
+
+msgid "Bypass Overseas"
+msgstr "Режим для зарубежных пользователей (возврат в Китай)"
+
+msgid "Bypass Specified Regions Network Flows, Improve Performance, If Inaccessibility on Bypass Gateway, Try to Enable Bypass Gateway Compatible Option"
+msgstr "Включите, чтобы трафик указанных регионов не проходил через ядро, повышая производительность. При проблемах доступа в режиме обходного шлюза, попробуйте включить совместимый режим"
+
+msgid "Log Level"
+msgstr "Уровень журналирования"
+
+msgid "Info Mode"
+msgstr "Info【Информация】"
+
+msgid "Warning Mode"
+msgstr "Warning【Предупреждения】"
+
+msgid "Error Mode"
+msgstr "Error【Ошибки】"
+
+msgid "Debug Mode"
+msgstr "Debug【Отладка】"
+
+msgid "Silent Mode"
+msgstr "Silent【Тихий】"
+
+msgid "Select Core's Log Level"
+msgstr "Выберите уровень детализации журнала ядра"
+
+msgid "Only intranet allowed"
+msgstr "Только локальная сеть"
+
+msgid "When Enabled, The Control Panel And The Connection Broker Port Will Not Be Accessible From The Public Network"
+msgstr "Включите, чтобы запретить доступ к панели управления и порту брокера из внешней сети"
+
+msgid "Redirect Local DNS Setting"
+msgstr "*Перехват локального DNS"
+
+msgid "Set Local DNS Redirect"
+msgstr "Рекомендуется использовать пересылку Dnsmasq для лучшей совместимости. Если есть конфликты с другими DNS-плагинами, можно отключить, но убедитесь, что результаты DNS-запросов клиентов совпадают с выдачей Clash"
+
+msgid "Dnsmasq Redirect"
+msgstr "Использовать пересылку Dnsmasq"
+
+msgid "Firewall Redirect"
+msgstr "Использовать пересылку через фаервол"
+
+msgid "Custom DNS Setting"
+msgstr "*Пользовательские вышестоящие DNS-серверы"
+
+msgid "Use Custom Rules"
+msgstr "Включите, чтобы добавить пользовательские правила в файл конфигурации. Правила можно отредактировать в текстовом поле ниже"
+
+msgid "Add Custom DNS Servers"
+msgstr "Настроить пользовательские вышестоящие DNS-серверы"
+
+msgid "(Take Effect After Choose Above)"
+msgstr "(Вступит в силу после включения функции выше)"
+
+msgid "Advanced Setting"
+msgstr "Расширенные настройки"
+
+msgid "Enable Specify DNS Server"
+msgstr "Включить второй DNS-сервер"
+
+msgid "Specify DNS Server"
+msgstr "Указать сервер"
+
+msgid "Specify DNS Server For List, Only One IP Server Address Support"
+msgstr "Укажите DNS-сервер для доменов в списке ниже. Поддерживается только один IP-адрес"
+
+msgid "Domain Names In The List Do Not Return Fake-IP, One rule per line, Depend on Dnsmasq"
+msgstr "Вводите по одному домену на строку. Домены из списка будут использовать указанный выше DNS и возвращать реальный IP-адрес. Функция зависит от Dnsmasq"
+
+msgid "Domain Names In The List Do Not Return Fake-IP, One rule per line"
+msgstr "Вводите по одному домену на строку. Домены из списка в режиме Fake-IP будут возвращать реальный IP-адрес"
+
+msgid "Domain Names In The List Use The Custom DNS Server, But Still Return Fake-IP Results, One rule per line"
+msgstr "Вводите по одному правилу на строку. Домены из списка будут использовать указанный DNS, но в режиме Fake-IP всё равно возвращать зарезервированный адрес"
+
+msgid "Set OpenClash Upstream DNS Resolve Server"
+msgstr "Включите, чтобы переопределить настройки в файле конфигурации. Сначала настройте серверы ниже"
+
+msgid "DNS Server Group"
+msgstr "Группа серверов"
+
+msgid "NameServer Group Must Be Set"
+msgstr "Группа NameServer должна содержать хотя бы один сервер"
+
+msgid "DNS Server Address"
+msgstr "Адрес сервера"
+
+msgid "Do Not Add Type Ahead"
+msgstr "Не добавляйте префикс типа"
+
+msgid "DNS Server Port"
+msgstr "Порт сервера"
+
+msgid "Require When Use Non-Standard Port"
+msgstr "Обязательно для нестандартных портов"
+
+msgid "DNS Server Type"
+msgstr "Тип сервера"
+
+msgid "Communication protocol"
+msgstr "Протокол связи"
+
+msgid "Proxy IPv6 Traffic"
+msgstr "Проксировать IPv6 трафик"
+
+msgid "The Gateway and DNS of The Connected Device Must be The Router IP, Disable IPv6 DHCP To Avoid Abnormal Connection If You Do Not Use"
+msgstr "Шлюз и DNS подключаемых устройств должны указывать на IP роутера. Если не используете IPv6, отключите его DHCP во избежание аномалий подключения"
+
+msgid "IPv6 DNS Resolve"
+msgstr "Разрешать IPv6 DNS запросы"
+
+msgid "Enable to Resolve IPv6 DNS Requests"
+msgstr "Разрешить обработку DNS запросов типа IPv6"
+
+msgid "Rules Setting"
+msgstr "Настройка правил"
+
+msgid "Config Manage"
+msgstr "Управление конфигурацией"
+
+msgid "Upload Config File"
+msgstr "Загрузить файл конфигурации"
+
+msgid "Upload File Type"
+msgstr "Тип загружаемого файла"
+
+msgid "(Click to select)"
+msgstr "(Нажмите для выбора)"
+
+msgid "Proxy Provider File"
+msgstr "Файл провайдеров прокси"
+
+msgid "Rule Provider File"
+msgstr "Файл провайдеров правил"
+
+msgid "Core File"
+msgstr "Файл ядра"
+
+msgid "Upload"
+msgstr "Загрузить"
+
+msgid "Add"
+msgstr "Добавить"
+
+msgid "File saved to"
+msgstr "Файл успешно загружен в"
+
+msgid "upload file error."
+msgstr "Ошибка загрузки файла"
+
+msgid "No specify upload file."
+msgstr "Файл для загрузки не указан"
+
+msgid "Note: Please Upload File According To File Type, File Will Be Saved To The Prompt Path"
+msgstr "Внимание: Загружайте файлы согласно их типу. Файлы будут сохранены по указанному пути"
+
+msgid "Proxy Provider File List"
+msgstr "Список файлов провайдеров прокси"
+
+msgid "Rule Providers File List"
+msgstr "Список файлов провайдеров правил"
+
+msgid "Game Rules File List"
+msgstr "Список файлов игровых правил"
+
+msgid "Please Make Sure Ports Available"
+msgstr "Убедитесь, что порты доступны"
+
+msgid "Update Subcription"
+msgstr "Обновить подписку"
+
+msgid "Update time (every day)"
+msgstr "Время обновления (ежедневно)"
+
+msgid "Update Interval(min)"
+msgstr "Интервал обновления (минуты)"
+
+msgid "Update Interval(hour)"
+msgstr "Интервал обновления (часы)"
+
+msgid "Update Mode"
+msgstr "Режим обновления"
+
+msgid "Appointment Mode"
+msgstr "По расписанию"
+
+msgid "Loop Mode"
+msgstr "Циклический"
+
+msgid "Auto Update"
+msgstr "Автообновление"
+
+msgid "Check And Update"
+msgstr "Проверить и обновить"
+
+msgid "After clash start running, wait a moment for servers to resolve,enjoy"
+msgstr "После запуска Clash подождите немного, пока серверы станут доступны"
+
+msgid "Redir Port"
+msgstr "Порт пересылки трафика"
+
+msgid "TProxy Port"
+msgstr "Порт TProxy"
+
+msgid "SOCKS5 Port"
+msgstr "Порт SOCKS5 прокси"
+
+msgid "HTTP(S) Port"
+msgstr "Порт HTTP(S) прокси"
+
+msgid "Mixed Port"
+msgstr "Смешанный порт HTTP(S)&SOCKS5"
+
+msgid "Set Authentication of SOCKS5/HTTP(S)"
+msgstr "Настройка аутентификации для SOCKS5/HTTP(S)"
+
+msgid "Not Null"
+msgstr "Не может быть пустым"
+
+msgid "Server Subscription Address"
+msgstr "Адрес подписки на конфигурацию"
+
+msgid "Auto Update Server subscription"
+msgstr "Автообновление конфигурации"
+
+msgid "Modify Your Config file:"
+msgstr "Вы можете напрямую редактировать файл конфигурации ниже:"
+
+msgid "Here, Except The Settings That Were Taken Over"
+msgstr "，поддерживаются только настройки, не управляемые плагином"
+
+msgid "Default Config File With Correct Template"
+msgstr "Эталонный файл конфигурации с комментариями к параметрам и правильными настройками"
+
+msgid "Config File Edited By OpenClash For Running"
+msgstr "Файл конфигурации, изменённый OpenClash для запуска"
+
+msgid "Dashboard Secret"
+msgstr "Ключ доступа к панели управления"
+
+msgid "Set Dashboard Secret"
+msgstr "Установите ключ доступа к панели управления"
+
+msgid "Dashboard Address Example:"
+msgstr "Пример адреса панели управления:"
+
+msgid "Dashboard Port"
+msgstr "Порт панели управления"
+
+msgid "Public Dashboard Address"
+msgstr "Публичный домен панели управления"
+
+msgid "Domain Name For Dashboard Login From Public Network"
+msgstr "Установите публичный домен для автоматического входа при доступе извне"
+
+msgid "Public Dashboard Port"
+msgstr "Проброшенный порт панели управления"
+
+msgid "Port For Dashboard Login From Public Network"
+msgstr "Установите проброшенный порт для автоматического входа при доступе извне"
+
+msgid "Public Dashboard SSL enabled"
+msgstr "Публичный SSL доступ к панели управления"
+
+msgid "Is SSL enabled For Dashboard Login From Public Network"
+msgstr "Включен ли SSL для публичного доступа, для автоматического входа при доступе извне"
+
+msgid "GEO Update"
+msgstr "Подписка на GEO базы данных"
+
+msgid "Auto Update GeoIP MMDB"
+msgstr "Автообновление GeoIP MMDB базы"
+
+msgid "Update GeoIP MMDB"
+msgstr "Обновить GeoIP MMDB базу"
+
+msgid "Auto Update GeoSite"
+msgstr "Автообновление GeoSite базы"
+
+msgid "Update GeoSite Database"
+msgstr "Обновить GeoSite базу"
+
+msgid "Auto Update Geo ASN"
+msgstr "Автообновление Geo ASN базы"
+
+msgid "Update Geo ASN Database"
+msgstr "Обновить Geo ASN базу"
+
+msgid "Auto Update Chnroute Lists"
+msgstr "Автообновление белого списка Китая"
+
+msgid "Update Chnroute Lists"
+msgstr "Обновить белый список Китая"
+
+msgid "Chnroute Update"
+msgstr "Подписка на белый список Китая"
+
+msgid "Other Rules Update(Only in Use)"
+msgstr "Можно обновлять только используемые сторонние правила"
+
+msgid "Enable Other Rules"
+msgstr "Сторонние правила"
+
+msgid "Use Other Rules"
+msgstr "Переопределит все правила в файле конфигурации (кроме пользовательских). Перед включением создайте конфигурацию на этой странице"
+
+msgid "lhie1 Rules"
+msgstr "Правила lhie1"
+
+msgid "Auto Update Other Rules"
+msgstr "Настройки вступят в силу только при использовании сторонних правил"
+
+msgid "Update Time (Every Week)"
+msgstr "Время обновления (еженедельно)"
+
+msgid "Every Day"
+msgstr "Ежедневно"
+
+msgid "Every Monday"
+msgstr "Каждый понедельник"
+
+msgid "Every Tuesday"
+msgstr "Каждый вторник"
+
+msgid "Every Wednesday"
+msgstr "Каждую среду"
+
+msgid "Every Thursday"
+msgstr "Каждый четверг"
+
+msgid "Every Friday"
+msgstr "Каждую пятницу"
+
+msgid "Every Saturday"
+msgstr "Каждую субботу"
+
+msgid "Every Sunday"
+msgstr "Каждое воскресенье"
+
+msgid "Update Other Rules"
+msgstr "Обновить сторонние правила"
+
+msgid "GlobalTV"
+msgstr "Международные стриминговые сервисы"
+
+msgid "AsianTV"
+msgstr "Азиатские стриминговые сервисы"
+
+msgid "CN Mainland TV"
+msgstr "Стриминговые сервисы материкового Китая"
+
+msgid "Proxy"
+msgstr "Трафик, требующий прокси"
+
+msgid "Apple"
+msgstr "Сервисы Apple"
+
+msgid "Google FCM"
+msgstr "Google FCM (пуш-уведомления)"
+
+msgid "Scholar"
+msgstr "Академические сайты"
+
+msgid "Microsoft"
+msgstr "Сервисы Microsoft"
+
+msgid "Netflix"
+msgstr "Netflix"
+
+msgid "Disney Plus"
+msgstr "Disney Plus"
+
+msgid "Bilibili"
+msgstr "Bilibili"
+
+msgid "Bahamut"
+msgstr "Bahamut"
+
+msgid "Steam"
+msgstr "Steam (кроме трафика загрузки)"
+
+msgid "Netease Music"
+msgstr "Музыка NetEase"
+
+msgid "Speedtest"
+msgstr "Трафик тестирования скорости"
+
+msgid "AdBlock"
+msgstr "Реклама"
+
+msgid "Domestic"
+msgstr "Внутренний трафик"
+
+msgid "Others"
+msgstr "Трафик, не попавший под правила"
+
+msgid "Choose Proxy Groups, Base On Your Config File"
+msgstr "Укажите способ прокси для трафика (политик). Поддерживается только выбор (групп политик). Информация берётся из вашего файла конфигурации"
+
+msgid "Custom Clash Rules"
+msgstr "*Пользовательские правила"
+
+msgid "Custom Rules Here, For More Go:"
+msgstr "Настройте пользовательские правила выше. Подробности смотрите:"
+
+msgid "(Priority)"
+msgstr "(Приоритетное совпадение)"
+
+msgid "(Extended)"
+msgstr "(Дополнительное совпадение)"
+
+msgid "IP To CIDR:"
+msgstr "Онлайн конвертер IP диапазона в CIDR:"
+
+msgid "Custom Hosts Here, You May Need to Turn off The Rebinding Protection Option of Dnsmasq When Hosts Has Set a Reserved Address, For More Go:"
+msgstr "Настройте пользовательские Hosts. При использовании зарезервированных адресов可能需要 отключить защиту от перепривязки в Dnsmasq. Подробности смотрите:"
+
+msgid "Set Custom Rules"
+msgstr "Настроить пользовательские правила (вступят в силу после включения функции выше)"
+
+msgid "Version Update"
+msgstr "Обновление версии"
+
+msgid "Model Not Found"
+msgstr "Не удалось определить архитектуру процессора"
+
+msgid "Current Core Version"
+msgstr "Текущая версия ядра"
+
+msgid "Last Core Version"
+msgstr "Последняя версия ядра"
+
+msgid "Check Failed"
+msgstr "Не удалось проверить обновления"
+
+msgid "<New>"
+msgstr "<Доступно обновление>"
+
+msgid "Getting Last Version..."
+msgstr "Получение последней версии..."
+
+msgid "Update Core File"
+msgstr "Обновить ядро"
+
+msgid "Download Form https://github.com/vernesong/OpenClash/releases/tag/Clash If Fail"
+msgstr "Если загрузка не удалась, можно скачать вручную с https://github.com/vernesong/OpenClash/releases/tag/Clash и загрузить"
+
+msgid "Last OpenClash Version"
+msgstr "Последняя версия клиента"
+
+msgid "Current OpenClash Version"
+str "Текущая версия клиента"
+
+msgid "Update OpenClash"
+msgstr "Обновить клиент"
+
+msgid "Only For IPK Install Type Or Not Release Memory"
+msgstr "Обновление поддерживается только для версий, установленных через IPK, так как версии, встроенные в прошивку, не освобождают место во флеш-памяти после обновления"
+
+msgid "Onekey Create"
+msgstr "Быстрое создание"
+
+msgid "Read Config"
+msgstr "Прочитать конфигурацию"
+
+msgid "Delete Unused Servers"
+msgstr "Удалить неиспользуемые ноды"
+
+msgid "Delete Servers"
+msgstr "Очистить конфигурацию серверов"
+
+msgid "Delete Proxy Providers"
+msgstr "Очистить конфигурацию провайдеров прокси"
+
+msgid "Delete Groups"
+msgstr "Очистить конфигурацию групп политик"
+
+msgid "Back Settings"
+msgstr "Вернуться к обзору"
+
+msgid "Refresh Page"
+msgstr "Обновить страницу"
+
+msgid "Onekey Create (Servers&Groups manage)"
+msgstr "Быстрое создание (Управление серверами и группами политик)"
+
+msgid "Keep Settings"
+msgstr "Сохранить настройки"
+
+msgid "Only Update Servers Below When Subscription"
+msgstr "При обновлении подписки обновлять только ноды и провайдеры прокси, сохраняя настройки групп политик ниже и их порядок"
+
+msgid "New Servers Group (Support Regex)"
+msgstr "Группа политик по умолчанию для новых нод (Не добавляйте повторно, поддерживается Regex)"
+
+msgid "Set The New Subscribe Server's Default Proxy Groups"
+msgstr "Выберите группу политик по умолчанию для новых нод, соответствующих требованиям подписки (Не добавляйте повторно)"
+
+msgid "Choose Template For Create Config"
+msgstr "Выберите шаблон конфигурации"
+
+msgid "Use Other Rules To Create Config"
+msgstr "Использовать сторонние правила для быстрого создания конфигурации (после создания параметры можно настроить на странице глобальных настроек)"
+
+msgid "Disable Create Config"
+msgstr "Обновлять только информацию о серверах в конфигурации"
+
+msgid "Mix Proxies"
+msgstr "Смешивать ноды"
+
+msgid "Mix This Page's Proxies"
+msgstr "При быстром создании конфигурации объединить всю информацию о серверах прокси с этой страницы (не разделяя по файлам конфигурации)"
+
+msgid "Type"
+msgstr "Тип"
+
+msgid "Server Alias"
+msgstr "Псевдоним (не должно повторяться)"
+
+msgid "Server Address"
+msgstr "Адрес сервера"
+
+msgid "Server Port"
+msgstr "Порт сервера"
+
+msgid "UDP Support"
+msgstr "Поддержка UDP"
+
+msgid "Edit Server"
+msgstr "Редактировать конфигурацию сервера"
+
+msgid "Server Node Type"
+msgstr "Тип серверной ноды"
+
+msgid "Using incorrect encryption mothod may causes service fail to start"
+msgstr "Неверная комбинация параметров может привести к невозможности запуска сервиса"
+
+msgid "Password"
+msgstr "Пароль"
+
+msgid "Encrypt Method"
+msgstr "Метод шифрования"
+
+msgid "Protocol"
+msgstr "Протокол"
+
+msgid "Protocol param(optional)"
+msgstr "Параметр протокола (опционально)"
+
+msgid "obfs"
+msgstr "Плагин обфускации"
+
+msgid "Obfs param(optional)"
+msgstr "Параметр обфускации (опционально)"
+
+msgid "UDP Enable"
+msgstr "Включить UDP"
+
+msgid "XUDP Enable"
+msgstr "Включить XUDP"
+
+msgid "obfs-mode"
+msgstr "Протокол передачи"
+
+msgid "obfs-hosts"
+msgstr "Параметр обфускации (HOST)"
+
+msgid "Auth Username"
+msgstr "Имя пользователя"
+
+msgid "Auth Password"
+msgstr "Пароль"
+
+msgid "None"
+msgstr "Не настроено"
+
+msgid "Create Config"
+msgstr "Быстро создать конфигурацию"
+
+msgid "Create Config By One-Click Only Need Proxies"
+msgstr "Для быстрого создания конфигурации нужна только информация о серверных нодах или провайдерах прокси"
+
+msgid "Proxy Groups(No Need Set when Config Create)"
+msgstr "Конфигурация групп политик (не требуется при быстром создании конфигурации)"
+
+msgid "Proxies"
+msgstr "Конфигурация серверных нод"
+
+msgid "Enable Port Hopping"
+msgstr "Включить смену портов"
+
+msgid "Port Range"
+msgstr "Диапазон портов"
+
+msgid "Uplink Capacity(Default:Mbps)"
+msgstr "Пропускная способность上行 (по умолчанию: Мбит/с)"
+
+msgid "Downlink Capacity(Default:Mbps)"
+msgstr "Пропускная способность下行 (по умолчанию: Мбит/с)"
+
+msgid "Hop Interval (Unit:second)"
+msgstr "Интервал смены (единица: секунды)"
+
+msgid "Obfs"
+msgstr "Плагин обфускации"
+
+msgid "Obfs param (optional)"
+msgstr "Параметр обфускации (опционально)"
+
+msgid "obfs-password"
+msgstr "Пароль обфускации"
+
+msgid "Enable Transport Protocol Settings"
+msgstr "Включить настройки протокола передачи"
+
+msgid "Hysterir QUIC parameters"
+msgstr "Параметры QUIC"
+
+msgid "QUIC init stream receive window"
+msgstr "Начальный размер окна приёма потока QUIC"
+
+msgid "QUIC max stream receive window"
+msgstr "Максимальный размер окна приёма потока QUIC"
+
+msgid "QUIC init connection receive window"
+msgstr "Начальный размер окна приёма соединения QUIC"
+
+msgid "QUIC max connection receive window"
+msgstr "Максимальный размер окна приёма соединения QUIC"
+
+msgid "Edit Rule Providers"
+msgstr "Редактировать конфигурацию провайдеров правил"
+
+msgid "Rule Providers Type"
+msgstr "Тип провайдера правил"
+
+msgid "Choose The Rule Providers Type"
+msgstr "Выберите тип провайдера правил"
+
+msgid "Append Position"
+msgstr "Порядок совпадения правил"
+
+msgid "Priority Match"
+msgstr "Приоритет (переопределение)"
+
+msgid "Extended Match"
+msgstr "Расширение (дополнение)"
+
+msgid "Rule Providers Name"
+msgstr "Псевдоним (не должно повторяться)"
+
+msgid "Rule Behavior"
+msgstr "Тип правила"
+
+msgid "Rule Format"
+msgstr "Формат правила"
+
+msgid "Choose The Rule Behavior"
+msgstr "Выберите тип правила"
+
+msgid "Choose The Rule File Format, For More Info:"
+msgstr "Выберите формат правила. Подробности использования:"
+
+msgid "Rule Providers Path"
+msgstr "Путь к провайдеру правил"
+
+msgid "Update Your Rule Providers File From Config Luci Page"
+msgstr "Сначала загрузите файл провайдера правил на странице управления конфигурацией"
+
+msgid "Rule Providers URL"
+msgstr "Адрес провайдера правил"
+
+msgid "Rule Providers Interval(s)"
+msgstr "Интервал обновления провайдера правил (секунды)"
+
+msgid "Edit Group"
+msgstr "Редактировать конфигурацию группы политик"
+
+msgid "Group Type"
+msgstr "Тип группы политик"
+
+msgid "Choose The Operation Mode"
+msgstr "Настройте способ выбора серверных нод группой политик"
+
+msgid "Group Name"
+msgstr "Псевдоним (не должно повторяться)"
+
+msgid "Disable UDP"
+msgstr "Отключить UDP соединения"
+
+msgid "Test URL"
+msgstr "Адрес проверки (URL)"
+
+msgid "Test Interval(s)"
+msgstr "Частота проверки (секунды)"
+
+msgid "Tolerance(ms)"
+msgstr "Допуск переключения нод (миллисекунды)"
+
+msgid "Manual-Select"
+msgstr "Select【Ручной выбор】"
+
+msgid "Smart-Select"
+msgstr "Smart【Умный выбор】"
+
+msgid "URL-Test"
+msgstr "URL-Test【Наименьшая задержка】"
+
+msgid "Fallback"
+msgstr "Fallback【Резервное переключение】"
+
+msgid "Load-Balance"
+msgstr "Load-Balance【Балансировка нагрузки】"
+
+msgid "Relay-Traffic"
+msgstr "Relay【Вложенная пересылка】"
+
+msgid "Other Group (Support Regex)"
+msgstr "Включает другие группы политик (Не добавляйте повторно, поддерживается Regex)"
+
+msgid "The Added Proxy Groups Must Exist Except 'DIRECT' & 'REJECT' & 'REJECT-DROP' & 'PASS' & 'GLOBAL'"
+msgstr "Внимание: Кроме 'DIRECT', 'REJECT', 'REJECT-DROP', 'PASS', 'GLOBAL', другие добавляемые группы политик должны быть созданы до изменения файла конфигурации"
+
+msgid "The Added Proxy Provider Must Exist"
+msgstr "Добавляемые провайдеры прокси должны быть созданы до изменения файла конфигурации"
+
+msgid "Proxy Group (Support Regex)"
+msgstr "Добавить в группу политик (Не добавляйте повторно, поддерживается Regex)"
+
+msgid "Set Proxy Group"
+msgstr "Указать группу политик"
+
+msgid "No Need Set when Config Create, The added Proxy Groups Must Exist"
+msgstr "Внимание: Не требуется при быстром создании конфигурации. Добавляемые группы политик должны быть созданы до изменения файла конфигурации"
+
+msgid "Clean"
+msgstr "Очистить журнал"
+
+msgid "Stop Refresh"
+msgstr "Остановить обновление"
+
+msgid "Start Refresh"
+msgstr "Начать обновление"
+
+msgid "Config File"
+msgstr "Файл конфигурации"
+
+msgid "State"
+msgstr "Состояние"
+
+msgid "Update Time"
+msgstr "Время обновления"
+
+msgid "File Name"
+msgstr "Имя файла"
+
+msgid "SwiTch"
+msgstr "Переключить"
+
+msgid "Size"
+msgstr "Размер файла"
+
+msgid "Remove"
+msgstr "Удалить"
+
+msgid "(Enable or Disable Subscribe)"
+msgstr "(Включить или отключить обновление)"
+
+msgid "Config Alias"
+msgstr "Имя конфигурации"
+
+msgid "Name For Distinguishing"
+msgstr "Для различения, не должно повторяться"
+
+msgid "Subscribe Address"
+msgstr "Адрес подписки"
+
+msgid "Keyword Match"
+msgstr "Фильтр нод"
+
+msgid "Exclude Keyword Match"
+msgstr "Исключить ноды"
+
+msgid "eg: hk or tw&bgp"
+msgstr "Пример формата: 香港 или 台湾&bgp или 新加坡&bgp&奈飞"
+
+msgid "Config File List"
+msgstr "Список конфигураций"
+
+msgid "Use For All Config File"
+msgstr "Добавить ко всем конфигурациям"
+
+msgid "Proxy-Provider"
+msgstr "Конфигурация провайдера прокси"
+
+msgid "Edit Proxy-Provider"
+msgstr "Редактировать провайдер прокси"
+
+msgid "Provider Type"
+msgstr "Тип провайдера"
+
+msgid "Choose The Provider Type"
+msgstr "Выберите тип провайдера"
+
+msgid "Provider Name"
+msgstr "Псевдоним провайдера (не должно повторяться)"
+
+msgid "Provider Path"
+msgstr "Путь к провайдеру (Path)"
+
+msgid "Update Your Proxy Provider File From Config Luci Page"
+msgstr "Сначала загрузите файл провайдера прокси на странице управления конфигурацией"
+
+msgid "Provider Filter"
+msgstr "Фильтр нод провайдера"
+
+msgid "Provider URL"
+msgstr "URL провайдера"
+
+msgid "Provider Interval(s)"
+msgstr "Интервал обновления провайдера (секунды)"
+
+msgid "Provider Health Check"
+msgstr "Проверка состояния провайдера"
+
+msgid "Health Check URL"
+msgstr "URL проверки состояния"
+
+msgid "Health Check Interval(s)"
+msgstr "Интервал проверки состояния (секунды)"
+
+msgid "Game Rule's Name"
+msgstr "Выберите игровое правило"
+
+msgid "Rule Provider's Name"
+msgstr "Выберите провайдер правил (Не добавляйте повторно)"
+
+msgid "Select Proxy Group"
+msgstr "Выберите группу политик"
+
+msgid "Game Rules List"
+msgstr "Список игровых правил"
+
+msgid "Rule Name"
+msgstr "Название правила"
+
+msgid "Rule Type"
+msgstr "Тип правила"
+
+msgid "Rule Author"
+msgstr "Автор правила"
+
+msgid "Download Rule"
+msgstr "Скачать правило"
+
+msgid "Exist"
+msgstr "Скачано"
+
+msgid "Not Exist"
+msgstr "Не скачано"
+
+msgid "Serial Number"
+msgstr "Порядковый номер"
+
+msgid "Game Rules Manage"
+msgstr "Управление сторонними игровыми правилами"
+
+msgid "Other Rule Provider Manage"
+msgstr "Управление сторонними провайдерами правил"
+
+msgid "Other Rule Providers List"
+msgstr "Список сторонних провайдеров правил"
+
+msgid "Proxy UDP Traffics"
+msgstr "Пересылка UDP трафика"
+
+msgid "The Servers Must Support UDP forwarding"
+msgstr "При включении серверы должны поддерживать UDP пересылку"
+
+msgid "If Docker is Installed, UDP May Not Forward Normally"
+msgstr "В прошивках с Docker используйте TUN режим, иначе UDP может неправильно пересылаться, вызывая проблемы в играх"
+
+msgid "Disable QUIC"
+msgstr "*Отключить QUIC"
+
+msgid "Prevent YouTube and Others To Use QUIC Transmission"
+msgstr "Предотвращает использование QUIC YouTube и другими, что может ухудшить скорость"
+
+msgid "REJECT UDP Traffic(Not Include bypassed regions via China IP Route setting) On Port 443"
+msgstr "Заблокировать UDP трафик на порту 443 (Обход указанных регионов IP: при включении или обходе материкового Китая блокирует QUIC за рубежом; в режиме возврата в Китай блокирует QUIC в сторону материка)"
+
+msgid "Operation Mode"
+msgstr "Настройки режима"
+
+msgid "Select Operation Mode"
+msgstr "*Режим работы страницы"
+
+msgid "Select Mode For Page Settings, Switch By Click the Button Bellow"
+msgstr "Выберите режим работы для глобальных настроек. Переключите, нажав кнопку ниже"
+
+msgid "redir-host mode"
+msgstr "Redir-Host режим"
+
+msgid "fake-ip mode"
+msgstr "Fake-IP режим"
+
+msgid "Switch Operation Mode"
+msgstr "Переключить режим работы"
+
+msgid "Switch Mode"
+msgstr "Переключить"
+
+msgid "Black&White"
+msgstr "Чёрно-белый список"
+
+msgid "LAN Access Control Mode"
+msgstr "Режим контроля доступа локальной сети"
+
+msgid "Black List Mode"
+msgstr "Режим чёрного списка"
+
+msgid "White List Mode"
+msgstr "Режим белого списка"
+
+msgid "LAN Bypassed Host List"
+msgstr "IP устройств в локальной сети, не использующих прокси"
+
+msgid "LAN Proxied Host List"
+msgstr "IP устройств в локальной сети, использующих прокси"
+
+msgid "WAN Bypassed Host List"
+msgstr "WAN IP, не использующие прокси"
+
+msgid "LAN Bypassed Mac List"
+msgstr "Mac-адреса устройств в локальной сети, не использующих прокси"
+
+msgid "LAN Proxied Mac List"
+msgstr "Mac-адреса устройств в локальной сети, использующих прокси"
+
+msgid "In The Fake-IP Mode, Only Pure IP Requests Are Supported, Please Setting Fake-IP-Filter First If You Need Domain Type Requests"
+msgstr "В режиме Fake-IP поддерживаются только запросы к чистым IP. Если нужен доступ по доменам, сначала настройте Fake-IP-Filter"
+
+msgid "Warning: iptables DSCP module not available, please try DCSP rule by core instead, skipping DSCP rule for"
+msgstr "Предупреждение: Модуль iptables DSCP недоступен, попробуйте использовать правила DSCP ядра вместо этого. Пропуск правила DSCP для"
+
+msgid "Rule Match Proxy Mode"
+msgstr "Проксировать только трафик, соответствующий правилам"
+
+msgid "Append Some Rules to Config, Allow Only Traffic Proxies that Match the Rule, Prevent BT/P2P Passing"
+msgstr "Добавляет правила в конфигурацию, разрешая прокси только для трафика, соответствующего правилам, предотвращая прохождение BT/P2P трафика через прокси"
+
+msgid "Common Ports Proxy Mode"
+msgstr "*Разрешить только трафик на распространённые порты"
+
+msgid "Only Common Ports, Prevent BT/P2P Passing"
+msgstr "Разрешает прохождение через Clash только трафика на распространённые порты, предотвращая прохождение BT/P2P трафика загрузки через прокси"
+
+msgid "443 or 21-443, Use Space to Separate"
+msgstr "443 или 21-443, разделяйте пробелами"
+
+msgid "Default Common Ports"
+msgstr "Распространённые порты по умолчанию"
+
+msgid "Provider File Manage"
+msgstr "Управление файлами провайдеров (прокси/правил)"
+
+msgid "Config File Edit"
+msgstr "Редактирование конфигурации"
+
+msgid "Delete All File"
+msgstr "Удалить все файлы"
+
+msgid "SS/SSR/Vmess or Other Link And Subscription Address is Supported When Online Subscription Conversion is Enabled, Multiple Links Should be One Per Line or Separated By |"
+msgstr "При включённом онлайн преобразовании подписок поддерживаются: SS/SSR/Vmess и другие ссылки на ноды, а также ссылки на подписки. Несколько ссылок — по одной на строку или разделённые |"
+
+msgid "URI and subscription address is supported when online subscription conversion enabled, multiple links should be one per line or separated by"
+msgstr "При включённом онлайн преобразовании подписок поддерживаются: ссылки на ноды и подписки. Несколько ссылок — по одной на строку или с использованием разделителя"
+
+msgid "Template Name"
+msgstr "Шаблон преобразования подписки"
+
+msgid "Subscribe Convert Online"
+msgstr "Онлайн преобразование подписки"
+
+msgid "Custom Template URL"
+msgstr "Пользовательский адрес шаблона"
+
+msgid "Custom Template"
+msgstr "Пользовательский шаблон"
+
+msgid "Emoji"
+msgstr "Добавить Emoji"
+
+msgid "skip-cert-verify"
+msgstr "Пропустить проверку сертификата"
+
+msgid "Sort"
+msgstr "Сортировка"
+
+msgid "Append Node Type"
+msgstr "Добавить тип ноды"
+
+msgid "Convert Subscribe Online With Template"
+msgstr "Преобразовать подписку онлайн по шаблону"
+
+msgid "Convert Subscribe function of Online is Supported By subconverter Written By tindy X"
+msgstr "Функция онлайн преобразования подписок поддерживается subconverter от tindy X"
+
+msgid "Small Flash Memory"
+msgstr "Режим малой флеш-памяти"
+
+msgid "Move Core And GEOIP Data File To /tmp/etc/openclash For Small Flash Memory Device"
+msgstr "Для устройств с малым объёмом флеш-памяти перемещает файлы ядра и GEOIP базы данных в папку /tmp/etc/openclash"
+
+msgid "Round-robin"
+msgstr "Перебор (поочерёдное использование всех прокси)"
+
+msgid "Consistent-hashing"
+msgstr "Хеш-совпадение (использование одного прокси для одного сайта)"
+
+msgid "Sticky-sessions"
+msgstr "Липкие сессии (один прокси для одинаковых пар исходный-целевой адрес)"
+
+msgid "Strategy Type"
+msgstr "Тип стратегии"
+
+msgid "Choose The Load-Balance's Strategy Type"
+msgstr "Выберите тип стратегии балансировки нагрузки"
+
+msgid "Choose The Smart's Strategy Type"
+msgstr "Выберите тип начальной стратегии сбора данных для Smart группы"
+
+msgid "Uselightgbm"
+msgstr "Uselightgbm(Использовать модель)"
+
+msgid "Collectdata"
+msgstr "Collectdata(Собирать данные)"
+
+msgid "Policy Priority"
+msgstr "Policy Priority(Бонус веса)"
+
+msgid "Use LightGBM Model For Smart Group Weight Prediction"
+msgstr "Использовать модель LightGBM для предсказания весов в Smart группе политик"
+
+msgid "Collect Datas For Smart Group Model Training"
+msgstr "Собирать данные о соединениях Smart группы для анализа и обучения модели"
+
+msgid "The Priority Of The Nodes, The Higher Than 1, The More Likely It Is To Be Selected, The Default Is 1, Support Regex"
+msgstr "Пользовательский бонус веса для нод в Smart группе. Больше 1 означает приоритетный выбор, меньше 1 — снижение частоты использования. По умолчанию 1. Поддерживается Regex"
+
+msgid "Running Status"
+msgstr "Статус работы"
+
+msgid "Running Mode"
+msgstr "Режим работы"
+
+msgid "yacd"
+msgstr "Yacd"
+
+msgid "Dashboard"
+msgstr "Dashboard"
+
+msgid "Metacubexd"
+msgstr "Metacubexd"
+
+msgid "Zashboard"
+msgstr "Zashboard"
+
+msgid "Control Panel"
+msgstr "Панель управления"
+
+msgid "Quick Action"
+msgstr "Быстрые действия"
+
+msgid "No Backup"
+msgstr "Резервной копии нет"
+
+msgid "Backup"
+msgstr "Резервная копия"
+
+msgid "Enhance"
+msgstr "Усиленный"
+
+msgid "Compat"
+msgstr "Совместимый"
+
+msgid "Mix"
+msgstr "Смешанный"
+
+msgid "Close Connect"
+msgstr "Закрыть соединения"
+
+msgid "Close Connect Failed"
+msgstr "Не удалось закрыть соединения"
+
+msgid "Restore Nodes Selection"
+msgstr "Восстановить выбор нод в группах политик"
+
+msgid "Save Nodes Selection"
+msgstr "Сохранить выбор нод в группах политик"
+
+msgid "Reload Firewall"
+msgstr "Сбросить фаервол"
+
+msgid "Check Update"
+msgstr "Проверить обновления"
+
+msgid "Check Config Update"
+msgstr "Проверить обновления конфигурации"
+
+msgid "Check Third Party Rules Update"
+msgstr "Проверить обновления сторонних правил"
+
+msgid "Check GEOIP Data Update"
+msgstr "Проверить обновления GEOIP базы"
+
+msgid "Check GeoSite Data Update"
+msgstr "Проверить обновления GeoSite базы"
+
+msgid "You have not installed the core yet, do you want to download and install it now?"
+msgstr "Ядро ещё не установлено. Скачать и установить сейчас?"
+
+msgid "No Compiled Version is Selected, Please Select on The Top and Try Again!"
+msgstr "Версия для сборки не выбрана. Выберите вверху и повторите!"
+
+msgid "Checking..."
+msgstr "Проверка обновлений..."
+
+msgid "Reloading..."
+msgstr "Сброс..."
+
+msgid "Restoring..."
+msgstr "Восстановление..."
+
+msgid "Saving..."
+msgstr "Сохранение..."
+
+msgid "Firewall Rules Reset Failed"
+msgstr "Не удалось сбросить правила фаервола"
+
+msgid "Close All Connections Railed"
+msgstr "Не удалось сбросить все соединения"
+
+msgid "Restore Nodes Selection Railed"
+msgstr "Восстановление не удалось"
+
+msgid "Save Nodes Selection Failed"
+msgstr "Резервное копирование не удалось"
+
+msgid "Tip: after started, please wait patiently until the connection is normal"
+msgstr "Подсказка: после успешного запуска OpenClash терпеливо дождитесь нормализации соединения, проверяя статус доступа к сайтам ниже"
+
+msgid "Tip: You can modify the profile on the profile page (for content that is not taken over)"
+msgstr "Подсказка: Вы можете напрямую редактировать конфигурацию на странице конфигурации (для содержимого, не управляемого плагином)"
+
+msgid "Tip: do not write configuration files? Try to create one click on the server page"
+msgstr "Подсказка: Не умеете писать файлы конфигурации? Попробуйте быстро создать на странице [Управление серверами и группами политик]"
+
+msgid "Tip: some website are abnormal? Try switching modes or using third-party rules"
+msgstr "Подсказка: Некоторые сайты работают некорректно? Попробуйте сменить режим или использовать сторонние правила"
+
+msgid "Tip: using the fake IP mode can get a faster access experience"
+msgstr "Подсказка: Использование режима Fake-IP даёт более быстрый опыт доступа"
+
+msgid "Tip: the nameserver group must have at least one server set when using custom DNS"
+msgstr "Подсказка: При использовании пользовательских вышестоящих DNS серверов группа NameServer должна содержать хотя бы один сервер"
+
+msgid "Tip: if you don not use IPv6, please turn off the DHCP service of IPv6, otherwise the connection will be abnormal"
+msgstr "Подсказка: Если не используете IPv6, отключите DHCP службу IPv6, иначе могут возникнуть аномалии подключения"
+
+msgid "Tip: you can update the version in the settings page"
+msgstr "Подсказка: Вы можете обновить версию на странице настроек плагина"
+
+msgid "Note: if the update fails, you can manually download and upload"
+msgstr "Внимание: Если обновление не удалось, можно скачать и загрузить вручную"
+
+msgid "Note: the client may not support update, because the firmware with squashfs format will not release flash space after updating"
+msgstr "Внимание: Клиент может не поддерживать обновление, так как прошивки формата squashfs не освобождают место во флеш-памяти после обновления"
+
+msgid "Compiled Version"
+msgstr "Версия для сборки"
+
+msgid "Release Branch"
+msgstr "Ветка обновлений"
+
+msgid "Note: options will auto-save when you click to update or download"
+msgstr "Внимание: Следующие опции автоматически сохранятся при нажатии на обновление или загрузку"
+
+msgid "CPU Architecture"
+msgstr "Архитектура процессора"
+
+msgid "Last Check Update"
+msgstr "Последняя проверка обновлений"
+
+msgid "Current Core"
+msgstr "Текущая версия ядра"
+
+msgid "Latest Core"
+msgstr "Последняя версия ядра"
+
+msgid "Core path:"
+msgstr "Путь к ядру:"
+
+msgid "Update Core"
+msgstr "Обновить ядро"
+
+msgid "Download Latest Core"
+msgstr "Скачать последнюю версию ядра"
+
+msgid "Client Update"
+msgstr "Обновление клиента"
+
+msgid "Current Client"
+msgstr "Текущая версия клиента"
+
+msgid "Update Client"
+msgstr "Обновить клиент"
+
+msgid "Latest Client"
+msgstr "Последняя версия клиента"
+
+msgid "Download Latest Client"
+msgstr "Скачать последнюю версию клиента"
+
+msgid "Restore Default Config"
+msgstr "Восстановить настройки по умолчанию"
+
+msgid "Failed to get the latest version. Please try again later!"
+msgstr "Не удалось получить последнюю версию. Попробуйте позже!"
+
+msgid "Are you sure want to restore the default config?"
+msgstr "Вы уверены, что хотите восстановить настройки по умолчанию?"
+
+msgid "Restore succeeded!"
+msgstr "Настройки по умолчанию восстановлены!"
+
+msgid "Restore failed!"
+msgstr "Не удалось восстановить настройки по умолчанию!"
+
+msgid "Support syntax check, press"
+msgstr "Поддерживает проверку синтаксиса, кнопка"
+
+msgid "to control diff option, press"
+msgstr "управляет отображением Diff, кнопка"
+
+msgid "to enter full screen editing mode"
+msgstr "войти в режим полноэкранного редактирования"
+
+msgid "Switch page to Fake-IP mode"
+msgstr "Переключить страницу в режим Fake-IP"
+
+msgid "Switch page to Redir-Host mode"
+msgstr "Переключить страницу в режим Redir-Host"
+
+msgid "Page has been switched to Fake-IP mode!"
+msgstr "Страница переключена в режим Fake-IP!"
+
+msgid "Page has been switched to Redir-Host mode!"
+msgstr "Страница переключена в режим Redir-Host!"
+
+msgid "IP Address"
+msgstr "IP адрес"
+
+msgid "Access Check"
+msgstr "Проверка доступа"
+
+msgid "Baidu Search"
+msgstr "Поиск Baidu"
+
+msgid "NetEase Music"
+msgstr "Музыка NetEase"
+
+msgid "Querying..."
+msgstr "Запрос..."
+
+msgid "Testing..."
+msgstr "Проверка..."
+
+msgid "Access Timed Out"
+msgstr "Таймаут соединения"
+
+msgid "Access Normal"
+msgstr "Доступ нормальный"
+
+msgid "Access Denied"
+msgstr "Доступ запрещён"
+
+msgid "Bind Network Interface"
+msgstr "Привязать сетевой интерфейс"
+
+msgid "Default Interface Name:"
+msgstr "Интерфейс по умолчанию в системе:"
+
+msgid ",Try Enable If Network Loopback"
+msgstr ", В случае сетевого лупинга/зависания попробуйте включить"
+
+msgid "Custom GeoIP MMDB URL"
+msgstr "URL для обновления GeoIP MMDB базы"
+
+msgid "Custom GeoSite URL"
+msgstr "URL для обновления GeoSite базы"
+
+msgid "Custom Geo ASN URL"
+msgstr "URL для обновления Geo ASN базы"
+
+msgid "Custom Chnroute6 Lists URL"
+msgstr "URL для обновления списка IPv6 Китая"
+
+msgid "Custom Chnroute Lists URL"
+msgstr "URL для обновления списка IP Китая"
+
+msgid "Custom GeoIP MMDB URL, Click Button Below To Refresh After Edit"
+msgstr "Пользовательский источник обновления GeoIP MMDB базы. После редактирования нажмите кнопку ниже для применения"
+
+msgid "Custom GeoSite Data URL, Click Button Below To Refresh After Edit"
+msgstr "Пользовательский источник обновления GeoSite базы. После редактирования нажмите кнопку ниже для применения"
+
+msgid "Custom Geo ASN Data URL, Click Button Below To Refresh After Edit"
+msgstr "Пользовательский источник обновления Geo ASN базы. После редактирования нажмите кнопку ниже для применения"
+
+msgid "Custom Chnroute Lists URL, Click Button Below To Refresh After Edit"
+msgstr "Пользовательский источник обновления списка IP Китая. После редактирования нажмите кнопку ниже для применения"
+
+msgid "Custom Chnroute6 Lists URL, Click Button Below To Refresh After Edit"
+msgstr "Пользовательский источник обновления списка IPv6 Китая. После редактирования нажмите кнопку ниже для применения"
+
+msgid "(Default)"
+msgstr "(По умолчанию)"
+
+msgid "(Default mmdb)"
+msgstr "(По умолчанию, все страны, записывает только iso_code и geoname_id)"
+
+msgid "(All Info mmdb)"
+msgstr "(Все страны, содержит все официальные данные)"
+
+msgid "(Only CN)"
+msgstr "(Только данные Китая)"
+
+msgid "Other Rules Edit"
+msgstr "Настройка сторонних правил"
+
+msgid "Get Group Names"
+msgstr "Получить группы политик"
+
+msgid "Get Group Names After Select Config File"
+msgstr "После выбора файла конфигурации нажмите, чтобы получить соответствующие группы политик"
+
+msgid "Other Rules Name"
+msgstr "Сторонние правила"
+
+msgid "Note"
+msgstr "Примечание"
+
+msgid "Auto Restart"
+msgstr "Автоперезапуск"
+
+msgid "Auto Restart OpenClash"
+msgstr "Автоперезапуск плагина"
+
+msgid "Restart Time (Every Week)"
+msgstr "Время перезапуска (еженедельно)"
+
+msgid "Restart time (every day)"
+msgstr "Время перезапуска (ежедневно)"
+
+msgid "DNS Port"
+msgstr "Порт прослушивания DNS"
+
+msgid "Log Size (KB)"
+msgstr "Размер журнала (КБ)"
+
+msgid "Set Log File Size (KB)"
+msgstr "Установить размер файла журнала (КБ)"
+
+msgid "Download Log"
+msgstr "Скачать журнал"
+
+msgid "Convert Address"
+msgstr "Адрес службы преобразования подписок"
+
+msgid "Note: There is A Risk of Privacy Leakage in Online Convert"
+msgstr "Внимание: Онлайн преобразование подписок несёт риск утечки приватности"
+
+msgid "Remove Core"
+msgstr "Удалить ядро"
+
+msgid "Are you sure want to remove all core files?"
+msgstr "Вы уверены, что хотите удалить все файлы ядра?"
+
+msgid "Remove succeeded!"
+msgstr "Удаление успешно!"
+
+msgid "Remove failed!"
+msgstr "Удаление не удалось!"
+
+msgid "Import"
+msgstr "Импорт информации о конфигурации"
+
+msgid "Import configuration information successfully"
+msgstr "Информация о конфигурации успешно импортирована"
+
+msgid "Invalid format"
+msgstr "Неверный формат"
+
+msgid "User cancelled"
+msgstr "Пользователь отменил"
+
+msgid "Paste sharing link here"
+msgstr "Вставьте ссылку для общего доступа сюда"
+
+msgid "Unsupported protocol type"
+msgstr "Неподдерживаемый протокол"
+
+msgid "Copy"
+msgstr "Копировать"
+
+msgid "Export"
+msgstr "Экспорт информации о конфигурации"
+
+msgid "Export failed"
+msgstr "Экспорт не удался"
+
+msgid "Export error"
+msgstr "Ошибка экспорта"
+
+msgid "Parse error."
+msgstr "Ошибка разбора"
+
+msgid "to clipboard successfully"
+msgstr "успешно скопировано в буфер обмена"
+
+msgid "Unable to copy"
+msgstr "Не удалось скопировать"
+
+msgid "to clipboard"
+msgstr "в буфер обмена"
+
+msgid "Exclude Keyword Match Default"
+msgstr "Исключить нерабочие ноды"
+
+msgid "Tip: Start downloading"
+msgstr "Подсказка: Начало загрузки"
+
+msgid "Download successful, start pre update test..."
+msgstr "Загрузка успешна, начало предварительного тестирования перед обновлением..."
+
+msgid "Pre update test failed..."
+msgstr "Предварительное тестирование не удалось..."
+
+msgid "Pre update test failed after 3 attempts, the file is saved in /tmp/openclash.ipk, please try to update manually with"
+msgstr "Предварительное тестирование не удалось после 3 попыток, файл сохранён в /tmp/openclash.ipk, попробуйте обновить вручную командой"
+
+msgid "Pre update test failed after 3 attempts, the file is saved in /tmp/openclash.apk, please try to update manually with"
+msgstr "Предварительное тестирование не удалось после 3 попыток, файл сохранён в /tmp/openclash.apk, попробуйте обновить вручную командой"
+
+msgid "Pre update test passed, ready to update and please do not refresh the page and other operations..."
+msgstr "Предварительное тестирование пройдено, подготовка к обновлению. Пожалуйста, не обновляйте страницу и не выполняйте других действий во время процесса..."
+
+msgid "Installing the new version, please do not refresh the page or do other operations..."
+msgstr "Установка новой версии. Пожалуйста, не обновляйте страницу и не выполняйте других действий во время процесса..."
+
+msgid "Installation failed..."
+msgstr "Установка пакета не удалась..."
+
+msgid "Tip: OpenClash update successful, about to restart!"
+msgstr "Подсказка: OpenClash успешно обновлён, скоро будет перезапущен!"
+
+msgid "Error: OpenClash update failed after 3 attempts, the file is saved in /tmp/openclash.ipk, please try to update manually with"
+msgstr "Ошибка: Не удалось обновить OpenClash после 3 попыток, файл сохранён в /tmp/openclash.ipk, попробуйте обновить вручную командой"
+
+msgid "Error: OpenClash update failed after 3 attempts, the file is saved in /tmp/openclash.apk, please try to update manually with"
+msgstr "Ошибка: Не удалось обновить OpenClash после 3 попыток, файл сохранён в /tmp/openclash.apk, попробуйте обновить вручную командой"
+
+msgid "Download Failed after 3 attempts, please check the network or try again later!"
+msgstr "Загрузка не удалась после 3 попыток, проверьте сеть или попробуйте позже!"
+
+msgid "Download failed..."
+msgstr "Загрузка не удалась..."
+
+msgid "Error: Failed to get version information, please try again later..."
+msgstr "Ошибка: Не удалось получить информацию о версии, попробуйте позже..."
+
+msgid "Tip: OpenClash has not been updated, stop continuing!"
+msgstr "Подсказка: OpenClash не обновлён, остановка операции!"
+
+msgid "Core Version Check Error, Please Try Again Later..."
+msgstr "Ошибка проверки последней версии ядра, попробуйте позже..."
+
+msgid "Core Downloading, Please Try to Download and Upload Manually If Fails"
+msgstr "Загрузка версии ядра. Если загрузка не удалась, попробуйте скачать и загрузить вручную..."
+
+msgid "Core Download Successful, Start Update..."
+msgstr "Загрузка версии ядра успешна, начало обновления..."
+
+msgid "Core Download Failed, Please Check The Network or Try Again Later!"
+msgstr "Загрузка версии ядра не удалась, проверьте сеть или попробуйте позже!"
+
+msgid "Core Update Failed, Please Check The Network or Try Again Later!"
+msgstr "Обновление версии ядра не удалось, проверьте сеть или попробуйте позже!"
+
+msgid "Core Update Successful!"
+msgstr "Версия ядра успешно обновлена!"
+
+msgid "Core Update Failed, Please Make Sure Enough Flash Memory Space or Selected Correct Core Platform And Try Again!"
+msgstr "Обновление версии ядра не удалось, убедитесь, что на флеш-памяти достаточно места и выбрана правильная платформа ядра, затем повторите!"
+
+msgid "Core Update Failed..."
+msgstr "Обновление версии ядра не удалось..."
+
+msgid "Core Download Failed..."
+msgstr "Загрузка версии ядра не удалась..."
+
+msgid "Core Update Failed, Please Make Sure Enough Flash Memory Space And Try Again!"
+msgstr "Обновление версии ядра не удалось, убедитесь, что на флеш-памяти достаточно места, затем повторите!"
+
+msgid "Warning: No Compiled Version Selected, Please Select In Update Page And Try Again!"
+msgstr "Предупреждение: Версия для сборки не выбрана. Выберите на странице обновления и повторите!"
+
+msgid "Core Has Not Been Updated, Stop Continuing Operation!"
+msgstr "Версия ядра не обновлялась, остановка операции!"
+
+msgid "Start Downloading Third Party Rules in Use..."
+msgstr "Начало загрузки используемых сторонних правил..."
+
+msgid "Warning: Multiple Other-Rules-Configurations Enabled, Ignore..."
+msgstr "Предупреждение: Обнаружено включение нескольких конфигураций сторонних правил, игнорируем последующие..."
+
+msgid "Download Successful, Start Preprocessing Rule File..."
+msgstr "Загрузка успешна, начало предварительной обработки файла правил..."
+
+msgid "Error:"
+msgstr "Ошибка:"
+
+msgid "Tip:"
+msgstr "Подсказка:"
+
+msgid "Warning:"
+msgstr "Предупреждение:"
+
+msgid "Rule File Format Validation Failed, Please Try Again Later..."
+msgstr "Проверка формата файла правил не удалась, попробуйте позже..."
+
+msgid "Error: Updated Others Rules"
+msgstr "Ошибка: Обновлённый файл сторонних правил"
+
+msgid "Has No Rules Field, Update Exit..."
+msgstr "Часть правил не прошла проверку, попробуйте позже..."
+
+msgid "Has Incompatible Proxy-Group, Update Exit, Please Wait For OpenClash Update To Adapt..."
+msgstr "Содержит неподдерживаемые группы политик, обновление остановлено. Ждите обновления OpenClash для адаптации..."
+
+msgid "Check The Downloaded Rule File For Updates..."
+msgstr "Проверка загруженного файла правил на наличие обновлений..."
+
+msgid "Detected that The Downloaded Rule File Has Been Updated, Starting To Replace..."
+msgstr "Обнаружено, что загруженный файл правил обновился, начало замены..."
+
+msgid "Other Rules"
+msgstr "Файл сторонних правил"
+
+msgid "Update Successful!"
+msgstr "Обновление успешно!"
+
+msgid "Updated Other Rules"
+msgstr "Обнаружен обновлённый файл правил"
+
+msgid "No Change, Do Nothing!"
+msgstr "Нет обновлений, остановка операции!"
+
+msgid "Update Error, Please Try Again Later..."
+msgstr "Загрузка не удалась, проверьте сеть или попробуйте позже..."
+
+msgid "Other Rules Not Enable, Update Stop!"
+msgstr "Сторонние правила не включены, обновление прекращено!"
+
+msgid "Get Other Rules Settings Faild, Update Stop!"
+msgstr "Конфигурация сторонних правил не найдена, обновление прекращено!"
+
+msgid "is Replaced Successfully, Start Picking Nodes..."
+msgstr "заменён успешно, обнаружено включение фильтрации нод, начало выбора нод..."
+
+msgid "is Replaced Successfully, Start to Reserving..."
+msgstr "заменён успешно, обнаружено включение сохранения конфигурации, начало применения настроек..."
+
+msgid "Config File Test Successful, Check If There is Any Update..."
+msgstr "Тестирование конфигурации успешно, проверка на наличие обновлений..."
+
+msgid "Are Updates, Start Replacing..."
+msgstr "Есть обновления, начало замены..."
+
+msgid "Download Successful, Start To Create..."
+msgstr "Загрузка успешна, локально нет файла конфигурации, начало создания..."
+
+msgid "Error: Ruby Works Abnormally, Please Check The Ruby Library Depends!"
+msgstr "Ошибка: Зависимости Ruby работают некорректно, не удалось проверить конфигурацию. Убедитесь, что зависимости Ruby работают нормально, и повторите!"
+
+msgid "Config File Format Validation Failed..."
+msgstr "Проверка формата конфигурации не удалась..."
+
+msgid "Error: Updated Config"
+msgstr "Ошибка: Обновлённая конфигурация"
+
+msgid "Has No Proxy Field, Update Exit..."
+msgstr "Часть нод не прошла проверку..."
+
+msgid "Start Updating Config File"
+msgstr "Начало обновления конфигурации"
+
+msgid "Config File Format Validation Failed, Trying To Download Without Agent..."
+msgstr "Проверка формата конфигурации не удалась, попытка загрузки без использования прокси..."
+
+msgid "Has No Proxy Field, Trying To Download Without Agent..."
+msgstr "Часть нод не прошла проверку, попытка загрузки без использования прокси..."
+
+msgid "Error: Config File"
+msgstr "Ошибка: Конфигурация"
+
+msgid "Subscribed Failed, Trying to Download Without Agent..."
+msgstr "Подписка не удалась, попытка загрузки без использования прокси..."
+
+msgid "Start Downloading The Chnroute Cidr List..."
+msgstr "Начало загрузки белого списка IP Китая..."
+
+msgid "Start Downloading The Chnroute6 Cidr List..."
+msgstr "Начало загрузки белого списка IPv6 Китая..."
+
+msgid "Chnroute Cidr List Download Success, Check Updated..."
+msgstr "Загрузка белого списка IP Китая успешна, проверка версии на обновления..."
+
+msgid "Chnroute6 Cidr List Download Success, Check Updated..."
+msgstr "Загрузка белого списка IPv6 Китая успешна, проверка версии на обновления..."
+
+msgid "Chnroute Cidr List Has Been Updated, Starting To Replace The Old Version..."
+msgstr "Белый список IP Китая обновился, начало замены старой версии..."
+
+msgid "Chnroute6 Cidr List Has Been Updated, Starting To Replace The Old Version..."
+msgstr "Белый список IPv6 Китая обновился, начало замены старой версии..."
+
+msgid "Chnroute Cidr List Update Successful!"
+msgstr "Белый список IP Китая успешно обновлён!"
+
+msgid "Chnroute6 Cidr List Update Successful!"
+msgstr "Белый список IPv6 Китая успешно обновлён!"
+
+msgid "Updated Chnroute Cidr List No Change, Do Nothing..."
+msgstr "Белый список IP Китая не обновился, остановка операции..."
+
+msgid "Updated Chnroute6 Cidr List No Change, Do Nothing..."
+msgstr "Белый список IPv6 Китая не обновился, остановка операции..."
+
+msgid "Chnroute Cidr List Update Error, Please Try Again Later..."
+msgstr "Загрузка белого списка IP Китая не удалась, проверьте сеть или попробуйте позже..."
+
+msgid "Chnroute6 Cidr List Update Error, Please Try Again Later..."
+msgstr "Загрузка белого списка IPv6 Китая не удалась, проверьте сеть или попробуйте позже..."
+
+msgid "Start Downloading GeoSite Database..."
+msgstr "Начало загрузки GeoSite базы данных..."
+
+msgid "GeoSite Database Download Success, Check Updated..."
+msgstr "Загрузка GeoSite базы данных успешна, проверка версии базы на обновления..."
+
+msgid "GeoSite Database Has Been Updated, Starting To Replace The Old Version..."
+msgstr "Версия GeoSite базы данных обновилась, начало замены версии базы..."
+
+msgid "GeoSite Database Update Successful!"
+msgstr "GeoSite база данных успешно обновлена!"
+
+msgid "Updated GeoSite Database No Change, Do Nothing..."
+msgstr "Версия GeoSite базы данных не обновилась, остановка операции..."
+
+msgid "GeoSite Database Update Error, Please Try Again Later..."
+msgstr "Загрузка GeoSite базы данных не удалась, проверьте сеть или попробуйте позже..."
+
+msgid "Start Downloading GeoIP Dat..."
+msgstr "Начало загрузки GeoIP Dat базы данных..."
+
+msgid "GeoIP Dat Download Success, Check Updated..."
+msgstr "Загрузка GeoIP Dat базы данных успешна, проверка версии базы на обновления..."
+
+msgid "GeoIP Dat Has Been Updated, Starting To Replace The Old Version..."
+msgstr "Версия GeoIP Dat базы данных обновилась, начало замены версии базы..."
+
+msgid "GeoIP Dat Update Successful!"
+msgstr "GeoIP Dat база данных успешно обновлена!"
+
+msgid "Updated GeoIP Dat No Change, Do Nothing..."
+msgstr "Версия GeoIP Dat базы данных не обновилась, остановка операции..."
+
+msgid "GeoIP Dat Update Error, Please Try Again Later..."
+msgstr "Загрузка GeoIP Dat базы данных не удалась, проверьте сеть или попробуйте позже..."
+
+msgid "Start Downloading Geoip Database..."
+msgstr "Начало загрузки GEOIP базы данных..."
+
+msgid "Geoip Database Download Success, Check Updated..."
+msgstr "Загрузка GEOIP базы данных успешна, проверка версии базы на обновления..."
+
+msgid "Geoip Database Has Been Updated, Starting To Replace The Old Version..."
+msgstr "Версия GEOIP базы данных обновилась, начало замены версии базы..."
+
+msgid "Geoip Database Update Successful!"
+msgstr "GEOIP база данных успешно обновлена!"
+
+msgid "Updated Geoip Database No Change, Do Nothing..."
+msgstr "Версия GEOIP базы данных не обновилась, остановка операции..."
+
+msgid "Geoip Database Update Error, Please Try Again Later..."
+msgstr "Загрузка GEOIP базы данных не удалась, проверьте сеть или попробуйте позже..."
+
+msgid "Start Downloading Geo ASN Database..."
+msgstr "Начало загрузки GEO ASN базы данных..."
+
+msgid "Geo ASN Database Download Success, Check Updated..."
+msgstr "Загрузка GEO ASN базы данных успешна, проверка версии базы на обновления..."
+
+msgid "Geo ASN Database Has Been Updated, Starting To Replace The Old Version..."
+msgstr "Версия GEO ASN базы данных обновилась, начало замены версии базы..."
+
+msgid "Geo ASN Database Update Successful!"
+msgstr "GEO ASN база данных успешно обновлена!"
+
+msgid "Updated Geo ASN Database No Change, Do Nothing..."
+msgstr "Версия GEO ASN базы данных не обновилась, остановка операции..."
+
+msgid "Geo ASN Database Update Error, Please Try Again Later..."
+msgstr "Загрузка GEO ASN базы данных не удалась, проверьте сеть или попробуйте позже..."
+
+msgid "Start Getting"
+msgstr "Начало получения"
+
+msgid "Groups Setting..."
+msgstr "конфигурации групп политик..."
+
+msgid "Group Setting..."
+msgstr "конфигурации группы политик..."
+
+msgid "Proxy-providers Setting..."
+msgstr "конфигурации провайдеров прокси..."
+
+msgid "Proxy-provider Setting..."
+msgstr "конфигурации провайдера прокси..."
+
+msgid "Proxies Setting..."
+msgstr "конфигурации серверных нод..."
+
+msgid "Proxy Setting..."
+msgstr "конфигурации серверной ноды..."
+
+msgid "Read Error, Config File"
+msgstr "Ошибка чтения, конфигурация"
+
+msgid "Abnormal!"
+msgstr "Аномальная!"
+
+msgid "Deleting Old Configuration..."
+msgstr "Удаление старой конфигурации..."
+
+msgid "Error: Unable To Parse Config File, Please Check And Try Again!"
+msgstr "Проверка конфигурации не удалась, проверьте файл конфигурации и повторите!"
+
+msgid "Start Writing"
+msgstr "Начало записи"
+
+msgid "Group To Config File..."
+msgstr "группы политик в конфигурацию..."
+
+msgid "Proxy To Config File..."
+msgstr "ноды в конфигурацию..."
+
+msgid "Proxy-provider To Config File..."
+msgstr "провайдера прокси в конфигурацию..."
+
+msgid "Unable To Parse, Please Choose One-key Function To Create Config File..."
+msgstr "не удалось прочитать информацию, невозможно изменить. Выберите быстрое создание конфигурации..."
+
+msgid "Setting Secondary DNS Server List..."
+msgstr "Настройка списка вторых DNS серверов..."
+
+msgid "Deleting"
+msgstr "Удаление"
+
+msgid "Proxy-providers That no Longer Exists in Subscription"
+msgstr "провайдеров прокси, которых больше нет в подписке..."
+
+msgid "Proxies That no Longer Exists in Subscription"
+msgstr "нод, которых больше нет в подписке..."
+
+msgid "Read Successful!"
+msgstr "Чтение завершено!"
+
+msgid "Write Successful!"
+msgstr "Запись завершена!"
+
+msgid "Creating By Using lhie1 Rules..."
+msgstr "Создание с использованием правил lhie1..."
+
+msgid "Created Successful, Updating Proxies, Proxy-providers, Groups..."
+msgstr "Создание завершено, обновление информации о серверах, провайдерах прокси, группах политик..."
+
+msgid "Proxies, Proxy-providers, Groups Edited Successful, Updating Config File"
+msgstr "Информация о серверах, провайдерах прокси, группах политик изменена, обновление конфигурации"
+
+msgid "Warning: Because of The Different Porxy-Group's Name, Stop Setting The Other Rules!"
+msgstr "Предупреждение: Из-за несоответствия или отсутствия названий групп политик в настройках сторонних правил и файле конфигурации, остановка настройки сторонних правил!"
+
+msgid "Error: Missing Porxy-Group's Name, Stop Setting The Other Rules!"
+msgstr "Ошибка: Отсутствует или не указана часть групп политик в сторонних правилах, остановка настройки сторонних правил!"
+
+msgid "Tip: Detected That The nameserver DNS Option Has No Server Set, Starting To Complete..."
+msgstr "Подсказка: Обнаружено, что Nameserver в настройках DNS не имеет серверов, начало дополнения..."
+
+msgid "Tip: Detected That The default-nameserver DNS Option Has No Server Set, Starting To Complete..."
+msgstr "Подсказка: Обнаружено, что Default-nameserver в настройках DNS не имеет серверов, начало дополнения..."
+
+msgid "Error: Nameserver Option Must Be Setted, Stop Customing DNS Servers"
+msgstr "Ошибка: Nameserver в настройках DNS конфигурации должен иметь серверы, настройка пользовательских DNS серверов остановлена!"
+
+msgid "Config File Does Not Exist, You Have Set Subscription Information, Ready To Download..."
+msgstr "Файл конфигурации не существует, вы настроили информацию о подписке, подготовка к загрузке..."
+
+msgid "Error: Config Not Found"
+msgstr "Ошибка: Отсутствует файл конфигурации, загрузите или обновите конфигурацию!"
+
+msgid "Error: Config File Format Validation Failed..."
+msgstr "Ошибка: Проверка формата конфигурации не удалась..."
+
+msgid "Tip: Detected that the GEOIP Database is not Installed, Ready to Download..."
+msgstr "Подсказка: Обнаружено отсутствие файла GEOIP базы данных, подготовка к загрузке..."
+
+msgid "Tip: Detected that the GEOSITE Database is not Installed, Ready to Download..."
+msgstr "Подсказка: Обнаружено отсутствие файла GEOSITE базы данных, подготовка к загрузке..."
+
+msgid "Tip: Detected that the GEOIP Dat is not Installed, Ready to Download..."
+msgstr "Подсказка: Обнаружено отсутствие файла GEOIP Dat базы данных, подготовка к загрузке..."
+
+msgid "Tip: Detected that the Core is not Installed, Ready to Download..."
+msgstr "Подсказка: Обнаружено отсутствие файла ядра, подготовка к загрузке..."
+
+msgid "Tip: Detected that the Chnroute Cidr is not Installed, Ready to Download..."
+msgstr "Подсказка: Обнаружено отсутствие списка белого списка Китая, подготовка к загрузке..."
+
+msgid "Tip: Detected that the Chnroute Cidr List Format is wrong, Ready to Reformat..."
+msgstr "Подсказка: Обнаружена ошибка формата списка белого списка Китая, подготовка к переформатированию..."
+
+msgid "Error: OpenClash Can Not Start, Please Check The Error Info And Try Again!"
+msgstr "Ошибка: Не удалось запустить OpenClash, просмотрите подробную информацию об ошибке на странице журналов!"
+
+msgid "Found 53 Port Hijacked, Clean Up Firewall Rules..."
+msgstr "Обнаружен перехват порта 53, очистка правил фаервола..."
+
+msgid "Tip: OpenClash Start Running..."
+msgstr "Подсказка: OpenClash начинает запуск..."
+
+msgid "Tip: OpenClash Restart..."
+msgstr "Подсказка: OpenClash перезапускается..."
+
+msgid "Step 1: Get The Configuration..."
+msgstr "Шаг 1: Получение конфигурации..."
+
+msgid "Step 2: Check The Components..."
+msgstr "Шаг 2: Проверка компонентов перед запуском..."
+
+msgid "Step 3: Modify The Config File..."
+msgstr "Шаг 3: Изменение конфигурации..."
+
+msgid "Step 3: Quick Start Mode, Skip Modify The Config File..."
+msgstr "Шаг 3: Режим быстрого запуска, пропуск изменения конфигурации..."
+
+msgid "Step 4: Start Running The Clash Core..."
+msgstr "Шаг 4: Запуск основной программы..."
+
+msgid "Step 5: Add Cron Rules, Start Daemons..."
+msgstr "Шаг 5: Добавление правил планировщика, запуск программ-демонов..."
+
+msgid "Step 6: Core Status Checking and Firewall Rules Setting..."
+msgstr "Шаг 6: Проверка статуса ядра и настройка правил фаервола..."
+
+msgid "Tip: OpenClash Start Successful!"
+msgstr "Подсказка: OpenClash успешно запущен, дождитесь доступности серверов!"
+
+msgid "Tip: Firewall Reload Successful!"
+msgstr "Подсказка: Фаервол успешно сброшен!"
+
+msgid "Warning: Please Note That Network May Abnormal With IPv6's DHCP Server"
+msgstr "Предупреждение: Обнаружено, что вы включили DHCP службу IPv6, это может вызвать аномалии подключения!"
+
+msgid "Tip: OpenClash Stoping..."
+msgstr "Подсказка: OpenClash начинает остановку..."
+
+msgid "Step 1: Backup The Current Groups State..."
+msgstr "Шаг 1: Резервное копирование текущего состояния групп политик..."
+
+msgid "Step 2: Delete OpenClash Firewall Rules..."
+msgstr "Шаг 2: Удаление правил фаервола OpenClash..."
+
+msgid "Step 3: Close The OpenClash Daemons..."
+msgstr "Шаг 3: Закрытие демонов OpenClash..."
+
+msgid "Step 4: Close The Clash Core Process..."
+msgstr "Шаг 4: Закрытие основного процесса Clash..."
+
+msgid "Step 5: Restart Dnsmasq..."
+msgstr "Шаг 5: Перезапуск программы Dnsmasq..."
+
+msgid "Step 6: Delete OpenClash Residue File..."
+msgstr "Шаг 6: Удаление остаточных файлов OpenClash..."
+
+msgid "Tip: OpenClash Already Stop!"
+msgstr "Подсказка: OpenClash уже остановлен!"
+
+msgid "Skip Reload OpenClash Firewall Rules Until 5 Minutes Later..."
+msgstr "Превышено ограничение количества сбросов в течение 5 минут, пропуск сброса правил фаервола OpenClash..."
+
+msgid "Reload OpenClash Firewall Rules..."
+msgstr "Сброс правил фаервола OpenClash..."
+
+msgid "Manually Reload Firewall Rules..."
+msgstr "Сброс правил фаервола OpenClash..."
+
+msgid "Warning: OpenClash Now Disabled, Need Start From Luci Page, Exit..."
+msgstr "Предупреждение: OpenClash в настоящее время отключён, запустите плагин со страницы плагина, выход..."
+
+msgid "Watchdog: Log Size Limit, Clean Up All Log Records..."
+msgstr "Демон: Из-за ограничения размера журнала, очистка всего содержимого журнала..."
+
+msgid "Watchdog: Setting Firewall For Rules Order..."
+msgstr "Демон: Обнаружена ошибка порядка правил фаервола, изменение правил фаервола плагина..."
+
+msgid "Watchdog: Force Reset DNS Hijack..."
+msgstr "Демон: Повторная настройка опции пересылки DNS для Dnsmasq..."
+
+msgid "Rule File"
+msgstr "Файл правил"
+
+msgid "Download Error!"
+msgstr "Ошибка загрузки!"
+
+msgid "Download Successful!"
+msgstr "Загрузка успешна!"
+
+msgid "Switch To The New Proxy When The Delay Difference Between Old and The Fastest Currently is Greater Than This Value"
+msgstr "Переключиться на новый прокси, только если разница в задержке между старым и текущим самым быстрым прокси больше этого значения"
+
+msgid "URL-Test Group Tolerance"
+msgstr "Чувствительность переключения URL-Test группы политик"
+
+msgid "Attention:"
+msgstr "Внимание:"
+
+msgid "The game proxy is a test function and does not guarantee the availability of rules"
+msgstr "Игровой прокси — это тестовая функция, не гарантирующая работоспособность правил"
+
+msgid "Preparation steps:"
+msgstr "Шаги подготовки:"
+
+msgid "1. Check the policy group and node you are going to use, Policy group type suggestion: fallback, game nodes must be support UDP and not a Vmess"
+msgstr "1. Проверьте группу политик и ноду, которые собираетесь использовать. Рекомендуемый тип группы политик: FallBack. Игровые ноды должны поддерживать UDP и не быть Vmess нодами"
+
+msgid "2. Click the <manage third party game rules> or <manage third party rule set> button to enter the rule list and download the rules you want to use"
+msgstr "2. Нажмите кнопку «Управление сторонними игровыми правилами» или «Управление сторонними наборами правил», чтобы войти в список правил и скачать нужные вам правила"
+
+msgid "3. On this page, set the corresponding configuration file and policy group of the rule you have downloaded, and save the settings"
+msgstr "3. На этой странице настройте соответствующий файл конфигурации и группу политик для скачанных правил и сохраните настройки"
+
+msgid "When setting this page, if the groups is empty, please go to the <Onekey Create> page to add"
+msgstr "При настройке этой страницы, если группы политик пусты, сначала перейдите на страницу «Быстрое создание» для их добавления"
+
+msgid "Introduction to rule set usage:"
+msgstr "Введение в использование наборов правил:"
+
+msgid "Introduction to proxy usage:"
+msgstr "Введение в использование прокси:"
+
+msgid "Introduction to proxy-provider usage:"
+msgstr "Введение в использование провайдеров прокси:"
+
+msgid "Subconverter external configuration (subscription conversion template) Description: https://github.com/tindy2013/subconverter#external-configuration-file"
+msgstr "Описание внешней конфигурации subconverter (шаблон преобразования подписок): https://github.com/tindy2013/subconverter#external-configuration-file"
+
+msgid "If you need to customize the external configuration file (subscription conversion template), please write it according to the instructions, upload it to the accessible location of the external network, and fill in the address correctly when using it"
+msgstr "Если нужно настроить внешний файл конфигурации (шаблон преобразования подписок), напишите его согласно инструкциям, загрузите в доступное извне место и правильно укажите адрес при использовании"
+
+msgid "If you have a recommended external configuration file (subscription conversion template), you can modify by following The file format of /usr/share/openclash/res/sub_ini.list and pr"
+msgstr "Если у вас есть рекомендуемый внешний файл конфигурации (шаблон преобразования подписок), вы можете изменить его в соответствии с форматом файла /usr/share/openclash/res/sub_ini.list и отправить PR"
+
+msgid "Note: To restore the default configuration, try accessing:"
+msgstr "Внимание: Если настройки потерялись или нужно восстановить настройки по умолчанию, попробуйте перейти по адресу:"
+
+msgid "Take Effect If Fallback DNS Setted, Prevent DNS Pollution"
+msgstr "Вступает в силу только если в конфигурации задана группа Fallback DNS. Правильная настройка может эффективно предотвращать DNS загрязнение"
+
+msgid "Error: Fallback-Filter Need fallback of DNS Been Setted, Ignore..."
+msgstr "Ошибка: Fallback-Filter вступает в силу только если в конфигурации задана группа Fallback DNS, пропуск этого изменения..."
+
+msgid "Error: Unable To Parse Custom Fallback-Filter File, Ignore..."
+msgstr "Ошибка: Не удалось прочитать пользовательские настройки Fallback-Filter, пропуск этого изменения..."
+
+msgid "Simple & trustworthy"
+msgstr "Простота & Надёжность"
+
+msgid "Cross-platform Support"
+msgstr "Богатая совместимость со сторонними приложениями"
+
+msgid "Global Acceleration Network"
+msgstr "Глобальная сетевая инфраструктура"
+
+msgid "Easy to Use"
+msgstr "Простота использования"
+
+msgid "Intelligent Shunting"
+msgstr "Интеллектуальное разделение трафика"
+
+msgid "Perfect Technical Support"
+msgstr "Полная техническая поддержка"
+
+msgid "Plan Expiration Time"
+msgstr "Время истечения срока действия"
+
+msgid "Account Balances"
+msgstr "Баланс счёта"
+
+msgid "Aff Balances"
+msgstr "Реферальный баланс"
+
+msgid "Account Integral"
+msgstr "Баллы счёта"
+
+msgid "Today Used"
+msgstr "Использовано сегодня"
+
+msgid "Plan Used"
+msgstr "Использовано в этом месяце"
+
+msgid "Plan Unused"
+msgstr "Оставшийся трафик"
+
+msgid "Plan Traffic"
+msgstr "Трафик тарифа"
+
+msgid "Checkin"
+msgstr "Испытать удачу"
+
+msgid "Dler Cloud Account Login Failed! Please Check And Try Again..."
+msgstr "Не удалось войти в аккаунт Dler Cloud! Проверьте информацию аккаунта и повторите..."
+
+msgid "Dler Cloud Account Login Failed, The Error Info is"
+msgstr "Не удалось войти в аккаунт Dler Cloud, информация об ошибке"
+
+msgid "Dler Cloud Checkin Failed! Please Check And Try Again..."
+msgstr "Отметка в Dler Cloud не удалась, попробуйте позже!"
+
+msgid "Account Email Address"
+msgstr "Адрес аккаунта"
+
+msgid "Account Password"
+msgstr "Пароль аккаунта"
+
+msgid "Checkin Interval (hour)"
+msgstr "Интервал отметки (часы)"
+
+msgid "Checkin Multiple"
+msgstr "Множитель отметки"
+
+msgid "Multiple Must Be a Positive Integer and No More Than 100"
+msgstr "Множитель должен быть положительным целым числом не более 100"
+
+msgid "Dler Cloud Checkin Successful, Result:"
+msgstr "Отметка в Dler Cloud успешна, результат:"
+
+msgid "Dler Cloud Checkin Failed, Result:"
+msgstr "Отметка в Dler Cloud не удалась, результат:"
+
+msgid "Downloading Rule..."
+msgstr "Загрузка правила..."
+
+msgid "Download Failed"
+msgstr "Загрузка не удалась"
+
+msgid "Download Successful"
+msgstr "Загрузка успешна"
+
+msgid "Rule No Change"
+msgstr "Правило не обновилось"
+
+msgid "Download Timeout"
+msgstr "Таймаут загрузки"
+
+msgid "Rule Project:"
+msgstr "Проект правила:"
+
+msgid "Login..."
+msgstr "Вход в систему..."
+
+msgid "Dler Cloud Login Successful"
+msgstr "Вход в Dler Cloud успешен"
+
+msgid "Dler Cloud Login Faild"
+msgstr "Не удалось войти в Dler Cloud"
+
+msgid "Login Account"
+msgstr "Войти в аккаунт"
+
+msgid "Dler Cloud Logout Successful"
+msgstr "Выход из Dler Cloud успешен"
+
+msgid "Dler Cloud Logout Faild"
+msgstr "Не удалось выйти из Dler Cloud"
+
+msgid "Logout Account"
+msgstr "Выйти из аккаунта"
+
+msgid "Account Login"
+msgstr "Вход в аккаунт"
+
+msgid "Account logged in"
+msgstr "Аккаунт вошёл в систему"
+
+msgid "Account not logged in"
+msgstr "Аккаунт не вошёл в систему"
+
+msgid "Logout..."
+msgstr "Выход из системы..."
+
+msgid "Error Login Info"
+msgstr "Ошибка информации для входа"
+
+msgid "Warning: Proxy is no longer used. Auto replaced by proxies"
+msgstr "Предупреждение: Написание 【Proxy】 больше не поддерживается, автоматически заменено на proxies"
+
+msgid "Warning: Proxy Group is no longer used. Auto replaced by proxy-groups"
+msgstr "Предупреждение: Написание 【Proxy Group】 больше не поддерживается, автоматически заменено на proxy-groups"
+
+msgid "Warning: Rule is no longer used. Auto replaced by rules"
+msgstr "Предупреждение: Написание 【Rule】 больше не поддерживается, автоматически заменено на rules"
+
+msgid "Warning: rule-provider is no longer used. Auto replaced by rule-providers"
+msgstr "Предупреждение: Написание 【rule-provider】 больше не поддерживается, автоматически заменено на rule-providers"
+
+msgid "Error: Load File Failed,"
+msgstr "Ошибка: Не удалось разобрать файл,"
+
+msgid "Error: Set General Failed,"
+msgstr "Ошибка: Не удалось изменить конфигурацию General,"
+
+msgid "Error: Set authentication Failed,"
+msgstr "Ошибка: Не удалось изменить конфигурацию Authentication,"
+
+msgid "Error: DNS Loop Check,"
+msgstr "Ошибка: Проверка DNS петли не пройдена,"
+
+msgid "Error: proxy-groups Get Failed,"
+msgstr "Ошибка: Не удалось получить proxy-groups,"
+
+msgid "Error: Set Hosts Rules Failed,"
+msgstr "Ошибка: Не удалось изменить конфигурацию Hosts,"
+
+msgid "Error: Set Fake-IP-Filter Failed,"
+msgstr "Ошибка: Не удалось изменить конфигурацию Fake-IP-Filter,"
+
+msgid "Error: Set Nameserver-Policy Failed,"
+msgstr "Ошибка: Не удалось изменить конфигурацию Nameserver-Policy,"
+
+msgid "Error: Set Custom Rules Failed,"
+msgstr "Ошибка: Не удалось установить пользовательские правила,"
+
+msgid "Error: Set BT/P2P DIRECT Rules Failed,"
+msgstr "Ошибка: Не удалось установить правило «Проксировать только трафик, соответствующий правилам (BT/P2P прямо)»,"
+
+msgid "Error: Set lhie1 Rules Failed,"
+msgstr "Ошибка: Не удалось установить сторонние правила (lhie1),"
+
+msgid "Error: Filter Proxies Failed,"
+msgstr "Ошибка: Фильтрация нод не удалась,"
+
+msgid "Error: Unable To Parse Config File,"
+msgstr "Ошибка: Не удалось разобрать файл конфигурации,"
+
+msgid "Error: Unable To Parse Updated Rules File,"
+msgstr "Ошибка: Не удалось разобрать обновлённый файл правил,"
+
+msgid "Error: Edit Provider Path Failed,"
+msgstr "Ошибка: Не удалось изменить путь к провайдеру,"
+
+msgid "Error: Edit URL-Test Group Tolerance Option Failed,"
+msgstr "Ошибка: Не удалось изменить допуск для URL-Test группы политик,"
+
+msgid "Error: Game Proxy Merge Failed,"
+msgstr "Ошибка: Не удалось объединить группы политик для игровых правил,"
+
+msgid "Error: Rule Set Add Failed,"
+msgstr "Ошибка: Не удалось добавить правило Rule-Set для набора правил,"
+
+msgid "Error: Custom Rule Provider Merge Failed,"
+msgstr "Ошибка: Не удалось объединить Rule Provider для набора правил,"
+
+msgid "Error: Resolve Proxy-providers Failed,"
+msgstr "Ошибка: Не удалось разобрать провайдеры прокси,"
+
+msgid "Error: Resolve Proxies Failed,"
+msgstr "Ошибка: Не удалось разобрать ноды,"
+
+msgid "Error: Resolve Groups Failed,"
+msgstr "Ошибка: Не удалось разобрать группы политик,"
+
+msgid "Error: Set default-nameserver Failed,"
+msgstr "Ошибка: Не удалось изменить конфигурацию Default-nameserver,"
+
+msgid "switching succeeded!"
+msgstr "Переключение успешно!"
+
+msgid "switching failed!"
+msgstr "Переключение не удалось!"
+
+msgid "Current Config File"
+msgstr "Текущая конфигурация"
+
+msgid "Official Website"
+msgstr "Официальный сайт"
+
+msgid "Up"
+msgstr "Отправлено"
+
+msgid "Down"
+msgstr "Получено"
+
+msgid "Up Total"
+msgstr "Всего отправлено"
+
+msgid "Down Total"
+msgstr "Всего получено"
+
+msgid "Connect"
+msgstr "Активных соединений"
+
+msgid "Ram"
+msgstr "Использование памяти"
+
+msgid "CPU"
+msgstr "Использование ЦПУ"
+
+msgid "Load Avg"
+msgstr "Нагрузка системы"
+
+msgid "Bad address specified!"
+msgstr "Указан недопустимый адрес!"
+
+msgid "Could not find any connection logs!"
+msgstr "Не найдено журналов соединений!"
+
+msgid "Some error occurred!"
+msgstr "Произошла ошибка!"
+
+msgid "Click to Test"
+msgstr "Нажмите для теста"
+
+msgid "Connection Test"
+msgstr "Тест соединения"
+
+msgid "Backup File"
+msgstr "Файл резервной копии"
+
+msgid "Backup File Restore Successful!"
+msgstr "Резервная копия успешно восстановлена!"
+
+msgid "Backup OpenClash"
+msgstr "Резервное копирование OpenClash"
+
+msgid "Not Select"
+msgstr "Не выбрано"
+
+msgid "1. It may be that the plugin is not running"
+msgstr "1. Возможно, плагин не запущен"
+
+msgid "2. It may be that the cache causes the browser to directly use the IP for access"
+msgstr "2. Возможно, кэш заставляет браузер напрямую использовать IP-адрес для доступа"
+
+msgid "3. It may be that DNS hijacking did not take effect, so clash unable to reverse the domain name"
+msgstr "3. Возможно, перехват DNS не сработал, из-за чего Clash не может правильно определить доменное имя соединения"
+
+msgid "4. It may be that the filled address cannot be resolved and connected"
+msgstr "4. Возможно, указанный адрес не может быть разрешён и подключён"
+
+msgid "OpenClash Log"
+msgstr "Журнал плагина"
+
+msgid "Core Log"
+msgstr "Журнал ядра"
+
+msgid "Append Upstream DNS"
+msgstr "Добавить вышестоящий DNS"
+
+msgid "Append The Upstream Assigned DNS And Gateway IP To The Nameserver"
+msgstr "Добавить назначенные вышестоящим провайдером DNS и IP шлюза в Nameserver"
+
+msgid "All Groups"
+msgstr "Все группы политик"
+
+msgid "Are you sure want to switch the running mode?"
+msgstr "Вы уверены, что хотите переключить режим работы?"
+
+msgid "Tip: Because of the file"
+msgstr "Подсказка: Поскольку файл"
+
+msgid "modificated, Pause quick start..."
+msgstr "был изменён, приостановка быстрого запуска..."
+
+msgid "Click to Update"
+msgstr "Нажмите для обновления правил"
+
+msgid "Persistence Fake-IP"
+msgstr "Сохранение Fake-IP"
+
+msgid "Cache Fake-IP DNS Resolution Records To File, Improve The Response Speed After Startup"
+msgstr "Сохраняет записи DNS разрешения Fake-IP в файл, повышая скорость отклика и стабильность после запуска ядра"
+
+msgid "Test failed"
+msgstr "Проверка не удалась"
+
+msgid "OpenClash Start Failed"
+msgstr "Не удалось запустить OpenClash"
+
+msgid "interface-name"
+msgstr "Указать исходящий сетевой интерфейс"
+
+msgid "routing-mark"
+msgstr "Указать метку маршрутизации"
+
+msgid "Streaming Enhance"
+msgstr "Улучшение стриминга"
+
+msgid "Auto Select Unlock Proxy"
+msgstr "*Автовыбор разблокирующих нод"
+
+msgid "Auto Select Proxy For Streaming Unlock, Support Netflix, Disney Plus, HBO And YouTube Premium, etc"
+msgstr "Автоматический выбор разблокирующих нод. Поддерживает Netflix, Disney Plus, HBO, YouTube Premium и др."
+
+msgid "Auto Select Interval(min)"
+msgstr "Интервал автовыбора (проверки) (минуты)"
+
+msgid "Expand Group"
+msgstr "Развернуть группу политик"
+
+msgid "Automatically Expand The Group When Selected"
+msgstr "Автоматически разворачивать вложенные группы политик и проводить проверку разблокировки. Включение может вызвать нестабильность сети"
+
+msgid "Group Filter"
+msgstr "Фильтр групп политик"
+
+msgid "Unlock Region Filter"
+msgstr "Фильтр региона разблокировки"
+
+msgid "Unlock Nodes Filter"
+msgstr "Фильтр разблокирующих нод"
+
+msgid "Tip: Start Auto Select Proxy For Netflix Unlock..."
+msgstr "Подсказка: Начало автовыбора (проверки) нод для разблокировки Netflix..."
+
+msgid "Tip: Start Auto Select Proxy For Disney Plus Unlock..."
+msgstr "Подсказка: Начало автовыбора (проверки) нод для разблокировки Disney Plus..."
+
+msgid "Tip: Start Auto Select Proxy For HBO Max Unlock..."
+msgstr "Подсказка: Начало автовыбора (проверки) нод для разблокировки HBO Max..."
+
+msgid "Tip: Start Auto Select Proxy For YouTube Premium Unlock..."
+msgstr "Подсказка: Начало автовыбора (проверки) нод для разблокировки YouTube Premium..."
+
+msgid "Tip: Start Auto Select Proxy For TVB Anywhere+ Unlock..."
+msgstr "Подсказка: Начало автовыбора (проверки) нод для разблокировки TVB Anywhere+..."
+
+msgid "Tip: Start Auto Select Proxy For Amazon Prime Video Unlock..."
+msgstr "Подсказка: Начало автовыбора (проверки) нод для разблокировки Amazon Prime Video..."
+
+msgid "Tip: Start Auto Select Proxy For DAZN Unlock..."
+msgstr "Подсказка: Начало автовыбора (проверки) нод для разблокировки DAZN..."
+
+msgid "Tip: Start Auto Select Proxy For Paramount Plus Unlock..."
+msgstr "Подсказка: Начало автовыбора (проверки) нод для разблокировки Paramount Plus..."
+
+msgid "Tip: Start Auto Select Proxy For Discovery Plus Unlock..."
+msgstr "Подсказка: Начало автовыбора (проверки) нод для разблокировки Discovery Plus..."
+
+msgid "Tip: Start Auto Select Proxy For Bilibili Unlock..."
+msgstr "Подсказка: Начало автовыбора (проверки) нод для разблокировки Bilibili..."
+
+msgid "Tip: Start Auto Select Proxy For Google Not CN Unlock..."
+msgstr "Подсказка: Начало автовыбора (проверки) нод для Google (не из Китая)..."
+
+msgid "Tip: Start Auto Select Proxy For OpenAI Unlock..."
+msgstr "Подсказка: Начало автовыбора (проверки) нод для разблокировки OpenAI..."
+
+msgid "Netflix Group:"
+msgstr "Группа политик Netflix:"
+
+msgid "Disney Plus Group:"
+msgstr "Группа политик Disney Plus:"
+
+msgid "HBO Max Group:"
+msgstr "Группа политик HBO Max:"
+
+msgid "TVB Anywhere+ Group:"
+msgstr "Группа политик TVB Anywhere+:"
+
+msgid "Amazon Prime Video Group:"
+msgstr "Группа политик Amazon Prime Video:"
+
+msgid "YouTube Premium Group:"
+msgstr "Группа политик YouTube Premium:"
+
+msgid "DAZN Group:"
+msgstr "Группа политик DAZN:"
+
+msgid "Paramount Plus Group:"
+msgstr "Группа политик Paramount Plus:"
+
+msgid "Discovery Plus Group:"
+msgstr "Группа политик Discovery Plus:"
+
+msgid "Bilibili Group:"
+msgstr "Группа политик Bilibili:"
+
+msgid "Google Group:"
+msgstr "Группа политик Google:"
+
+msgid "OpenAI Group:"
+msgstr "Группа политик OpenAI:"
+
+msgid "full support"
+msgstr "Полная разблокировка"
+
+msgid "full support, area:"
+msgstr "Полная разблокировка, регион:"
+
+msgid "only support homemade!"
+msgstr "Только поддерживает локальный контент!"
+
+msgid "unlock test faild!"
+msgstr "Проверка разблокировки не удалась!"
+
+msgid ", the type of group is not select, auto select could not work!"
+msgstr ", текущий тип группы политик не Select, автовыбор невозможен!"
+
+msgid "Start auto select unlock proxy..."
+msgstr "Начало автовыбора разблокирующих нод..."
+
+msgid "only support homemade! the type of group is not select, auto select could not work!"
+msgstr "Только поддерживает локальный контент! Текущий тип группы политик не Select, автовыбор невозможен!"
+
+msgid "unlock test faild! the type of group is not select, auto select could not work!"
+msgstr "Проверка разблокировки не удалась! Текущий тип группы политик не Select, автовыбор невозможен!"
+
+msgid "only support homemade! start auto select unlock proxy..."
+msgstr "Только поддерживает локальный контент! Начало автовыбора разблокирующих нод..."
+
+msgid "unlock test faild! start auto select unlock proxy..."
+msgstr "Проверка разблокировки не удалась! Начало автовыбора разблокирующих нод..."
+
+msgid "It Will Be Searched According To The Regex When Auto Search Group Fails"
+msgstr "При неудачном автоматическом получении группы политик будет произведён поиск по регулярному выражению"
+
+msgid "It Will Be Selected Region(Country Shortcode) According To The Regex"
+msgstr "Регион разблокировки (код страны) будет выбран согласно регулярному выражению"
+
+msgid "It Will Be Selected Nodes According To The Regex"
+msgstr "Имена разблокирующих нод будут выбраны согласно регулярному выражению"
+
+msgid "not support unlock!"
+msgstr "Не поддерживает разблокировку!"
+
+msgid "not support unlock! the type of group is not select, auto select could not work!"
+msgstr "Не поддерживает разблокировку! Текущий тип группы политик не Select, автовыбор невозможен!"
+
+msgid "not support unlock! start auto select unlock proxy..."
+msgstr "Не поддерживает разблокировку! Начало автовыбора разблокирующих нод..."
+
+msgid "unlock node auto selected successfully, the current selected is"
+msgstr "Автовыбор разблокирующей ноды успешен, сейчас выбрана"
+
+msgid "unlock node auto selected failed, no node available, rolled back to the"
+msgstr "Автовыбор разблокирующей ноды не удался, нет доступных полностью разблокирующих нод, откат к"
+
+msgid ", area:"
+msgstr ", регион:"
+
+msgid "failed to search based on keywords and automatically obtain the group, please confirm the validity of the regex!"
+msgstr "Поиск по ключевым словам и автоматическое получение группы политик не удались, проверьте корректность ключевых слов!"
+
+msgid "unlock node auto selected failed, no node match the regex, rolled back to other full support node"
+msgstr "Автовыбор разблокирующей ноды не удался, не найдено нод, соответствующих региону по настройкам, откат к разблокирующим нодам другого региона"
+
+msgid "unlock node auto selected successfully, no node match the old region, rolled back to other full support node"
+msgstr "Автовыбор разблокирующей ноды успешен, не найдено нод, соответствующих предыдущему региону разблокировки, откат к подходящим разблокирующим нодам другого региона"
+
+msgid ", but not match the regex!"
+msgstr ", но регион не соответствует настройкам!"
+
+msgid "full support but not match the old region!"
+msgstr "Полная разблокировка, но не соответствует предыдущему региону разблокировки!"
+
+msgid ", but not match the old region:"
+msgstr ", но не соответствует предыдущему региону разблокировки:"
+
+msgid "the type of group is not select, auto select could not work!"
+msgstr "Текущий тип группы политик не Select, автовыбор невозможен!"
+
+msgid ", but not match the regex! the type of group is not select, auto select could not work!"
+msgstr "Полная разблокировка, но регион не соответствует настройкам! Текущий тип группы политик не Select, автовыбор невозможен!"
+
+msgid "but not match the old region! the type of group is not select, auto select could not work!"
+msgstr "Но не соответствует предыдущему региону разблокировки! Текущий тип группы политик не Select, автовыбор невозможен!"
+
+msgid ", but not match the regex! start auto select unlock proxy..."
+msgstr ", но регион не соответствует настройкам! Начало автовыбора разблокирующих нод..."
+
+msgid "unlock node test finished, rolled back to the full support node"
+msgstr "Проверка разблокировки завершена, откат к полностью разблокированной ноде"
+
+msgid "unlock node test finished, no node match the old region, rolled back to other full support node"
+msgstr "Проверка разблокировки завершена, не найдено нод, соответствующих предыдущему региону разблокировки, откат к разблокирующим нодам другого региона"
+
+msgid "unlock node test finished, no node match the regex, rolled back to other full support node"
+msgstr "Проверка разблокировки завершена, не найдено нод, соответствующих региону по настройкам, откат к разблокирующим нодам другого региона"
+
+msgid "unlock node test finished, no node available, rolled back to the"
+msgstr "Проверка разблокировки завершена, нет доступных полностью разблокирующих нод, откат к"
+
+msgid "no nodes name match the regex!"
+msgstr "Не найдено нод с соответствующими именами!"
+
+msgid "Bypass Gateway Compatible"
+msgstr "Совместимость с обходным шлюзом (обходной маршрутизатор)"
+
+msgid "If The Network Cannot be Connected in Bypass Gateway Mode, Please Try to Enable."
+msgstr "Если в режиме обходного шлюза (обходного маршрутизатора) сеть не подключается, попробуйте включить эту опцию."
+
+msgid "Suggestion: If The Device Does Not Have WLAN, Please Disable The Lan Interface's Bridge Option"
+msgstr "Рекомендация: Если у устройства нет WLAN, отключите опцию мостового интерфейса для интерфейса Lan"
+
+msgid "Github Address Modify"
+msgstr "Изменение адреса Github"
+
+msgid "Modify The Github Address In The Config And OpenClash With Proxy(CDN) To Prevent File Download Faild. Format Reference:"
+msgstr "Использовать указанный прокси (CDN) для зеркалирования адресов Github в плагине и файле конфигурации, чтобы предотвратить сбои загрузки файлов. Формат参考:"
+
+msgid "File Edit"
+msgstr "Редактирование файла"
+
+msgid "Overwrite Edit"
+msgstr "Переопределение настроек"
+
+msgid "Create File"
+msgstr "Создать файл"
+
+msgid "You are editing the overwrite script, please note that some settings may cause the abnormal, be careful with the modification!"
+msgstr "Вы редактируете скрипт переопределения. Учтите, что некоторые настройки могут вызвать аномалии, изменяйте осторожно!"
+
+msgid "Paste the name of the new file (including the extension) here:"
+msgstr "Введите здесь имя нового файла (с расширением):"
+
+msgid "Delay Start (s)"
+msgstr "Задержка запуска (секунды)"
+
+msgid "Delay Start On Boot"
+msgstr "Задержка запуска при загрузке системы"
+
+msgid "Enable Delay Start, OpenClash Will Start After"
+msgstr "Задержка запуска включена, OpenClash запустится через"
+
+msgid "Secends..."
+msgstr "секунд..."
+
+msgid "Waiting for command to complete..."
+msgstr "Ожидание завершения выполнения команды..."
+
+msgid "Collecting data..."
+msgstr "Сбор данных..."
+
+msgid "Flushing..."
+msgstr "Очистка..."
+
+msgid "Flush Successful"
+msgstr "Очистка успешна"
+
+msgid "Flush Timeout"
+msgstr "Таймаут очистки"
+
+msgid "Flush"
+msgstr "Очистить"
+
+msgid "Flush DNS Cache"
+msgstr "Очистить DNS кэш"
+
+msgid "No Specify Upload File"
+msgstr "Файл для загрузки не выбран"
+
+msgid "Custom Params"
+msgstr "Пользовательские параметры"
+
+msgid "eg: \"rename=match@replace\" , \"rename=\\s+([2-9])[xX]@ (HIGH:$1)\""
+msgstr "Пример формата: \"rename=match@replace\" , \"rename=\\s+([2-9])[xX]@ (Высокий:$1)\""
+
+msgid "Use Rule Provider"
+msgstr "Использовать набор правил"
+
+msgid "Note: Please Make Sure Backend Service Supports This Feature"
+msgstr "Внимание: Убедитесь, что выбранная вами серверная служба поддерживает эту функцию, иначе ядро может не запуститься"
+
+msgid "Rename"
+msgstr "Переименовать"
+
+msgid "Paste the new file name (including the extension) here:"
+msgstr "Введите здесь новое имя файла (с расширением):"
+
+msgid "Illegal extension!"
+msgstr "Неподдерживаемое расширение!"
+
+msgid "Manual Test"
+msgstr "Ручная проверка"
+
+msgid "Unlock Test(Select)"
+msgstr "Проверка разблокировки (Выбор)"
+
+msgid "All Proxies Test"
+msgstr "Проверить все ноды"
+
+msgid "Something Wrong While Testing..."
+msgstr "Что-то пошло не так, проверка не удалась..."
+
+msgid "Network instability may occur during testing, Are you sure want to start test?"
+msgstr "Во время проверки может возникнуть нестабильность сети. Вы уверены, что хотите начать проверку?"
+
+msgid "Subscription Info"
+msgstr "Информация о подписке"
+
+msgid "No Sub Info Found"
+msgstr "Информация о подписке не найдена"
+
+msgid "Sub Info Get Error"
+msgstr "Не удалось получить информацию о подписке"
+
+msgid "Router-Self Proxy"
+msgstr "*Проксирование трафика самого маршрутизатора"
+
+msgid "Only Supported for Rule Mode"
+msgstr "Поддерживается только в режиме правил (Rule), в других режимах трафик разделяется по умолчанию"
+
+msgid "ALL Functions In Stream Enhance Tag Will Not Work After Disable"
+msgstr "После отключения все функции в разделе улучшения стриминга станут недоступны"
+
+msgid "Error: Set Router Self Proxy Rule Failed,"
+msgstr "Ошибка: Не удалось изменить правило проксирования трафика самого маршрутизатора,"
+
+msgid "Error: Streaming Unlock Has No Parameter of Type, Exiting..."
+msgstr "Ошибка: Для улучшения стриминга не указан тип стриминга для проверки, выход..."
+
+msgid "Error: Streaming Unlock Could not Work Because of Router-Self Proxy Disabled, Exiting..."
+msgstr "Ошибка: Из-за отключения проксирования трафика самого маршрутизатора улучшение стриминга не может работать, выход..."
+
+msgid "Error: Multiple Scripts Running, Exiting..."
+msgstr "Ошибка: Запущено несколько скриптов, выход..."
+
+msgid "Enable Sniffer"
+msgstr "*Включить обнаружение (доменных имён) трафика"
+
+msgid "Sniffer Will Prevent Domain Name Proxy and DNS Hijack Failure"
+msgstr "Обнаружение (доменных имён) трафика может эффективно предотвращать аномалии разделения доменных имён и сбои перехвата DNS"
+
+msgid "Override All Dns Query"
+msgstr "Включите, чтобы по возможности перекрывать доменные имена, полученные из DNS запросов"
+
+msgid "Meta Settings"
+msgstr "Настройки Meta"
+
+msgid "Smart Settings"
+msgstr "Настройки Smart"
+
+msgid "Geodata Loader Mode"
+msgstr "Способ загрузки Geodata данных"
+
+msgid "Memconservative"
+msgstr "Режим малой памяти"
+
+msgid "Standard"
+msgstr "Стандартный режим"
+
+msgid "Enable GeoIP Dat"
+msgstr "Включить GeoIP Dat версию базы данных"
+
+msgid "Replace GEOIP MMDB With GEOIP Dat, Large Size File"
+msgstr "Использовать Geoip Dat для замены GEOIP MMDB базы данных, большой размер файла и не встроена"
+
+msgid "Need Download First"
+msgstr "Сначала загрузите"
+
+msgid "Auto Update GeoIP Dat"
+msgstr "Автообновление GeoIP Dat базы данных"
+
+msgid "Custom GeoIP Dat URL"
+msgstr "URL для обновления GeoIP Dat базы данных"
+
+msgid "Custom GeoIP Dat URL, Click Button Below To Refresh After Edit"
+msgstr "Пользовательский источник обновления GeoIP Dat базы данных. После редактирования нажмите кнопку ниже для применения"
+
+msgid "Update GeoIP Dat"
+msgstr "Обновить GeoIP Dat базу данных"
+
+msgid "Note: It is not recommended to enable IPv6 and related services for routing. Most of the network connection problems reported so far are related to it"
+msgstr "Внимание: Для маршрутизации не рекомендуется включать IPv6 и связанные службы, большинство сообщаемых проблем с сетевым подключением связаны с ним"
+
+msgid "Note: Turning on secure DNS in the browser will cause abnormal shunting, please be careful to turn it off"
+msgstr "Внимание: Включение безопасного DNS в браузере вызовет аномалии разделения трафика,请注意关闭"
+
+msgid "Note: Some software will modify the device HOSTS, which will cause abnormal shunt, please pay attention to check"
+msgstr "Внимание: Некоторые программы изменяют HOSTS устройства, что вызывает аномалии разделения трафика,请注意检查"
+
+msgid "Note: The default proxy routes local traffic, BT, PT download, etc., please use Redir-Host mode as much as possible and pay attention to traffic avoidance"
+msgstr "Внимание: По умолчанию проксируется локальный трафик маршрутизатора, BT, PT загрузки и т.д. По возможности используйте режим Redir-Host и注意进行流量规避"
+
+msgid "Note: Game proxy please use nodes except VMess"
+msgstr "Внимание: Для игрового прокси используйте ноды, кроме VMess"
+
+msgid "Note: If the connection is abnormal, please follow the steps on this page to check first"
+msgstr "Внимание: При аномалиях подключения сначала выполните проверку по шагам на этой странице"
+
+msgid "Note: If you need to perform client access control in Fake-IP mode, please change the DNS hijacking mode to firewall forwarding"
+msgstr "Внимание: В режиме Fake-IP, если требуется контроль доступа клиентов, измените режим перехвата DNS на пересылку через фаервол"
+
+msgid "Click to the page"
+msgstr "Перейти на страницу"
+
+msgid "Custom Sniffer Settings"
+msgstr "Пользовательские настройки обнаружения (sniffing) трафика"
+
+msgid "Custom The Force and Skip Sniffing Doamin Lists"
+msgstr "Настройка списков доменов для принудительного и пропуска обнаружения (sniffing) трафика и др."
+
+msgid "Enable Tcp Concurrent"
+msgstr "*Включить TCP параллелизм"
+
+msgid "TCP Concurrent Request IPs, Choose The Lowest Latency One To Connection"
+msgstr "Параллельный запрос всех IP-адресов по TCP с последующим выбором соединения с наименьшей задержкой"
+
+msgid "Remaining"
+msgstr "Осталось"
+
+msgid "days"
+msgstr "дней"
+
+msgid "Douyin"
+msgstr "Douyin"
+
+msgid "Specific Interface"
+msgstr "Указать интерфейс"
+
+msgid "DNS Lookup Only Through The Specific Interface"
+msgstr "DNS запросы только через указанный интерфейс"
+
+msgid "Specific Group (Support Regex)"
+msgstr "Указать группу политик (поддерживается Regex)"
+
+msgid "Group Use For Proxy The DNS"
+msgstr "Группа политик, используемая для проксирования этого DNS"
+
+msgid "Direct Nameserver"
+msgstr "Прямое разрешение доменных имён"
+
+msgid "Use For Domain Need Direct"
+msgstr "Используется для разрешения IP-адресов доменов прямого подключения"
+
+msgid "Node Domain Resolve"
+msgstr "Разрешение доменных имён нод"
+
+msgid "Use For Node Domain Resolve"
+msgstr "Используется для разрешения IP-адресов доменных имён нод"
+
+msgid "Lan Traffic Access List"
+msgstr "Контроль доступа по исходному трафику"
+
+msgid "The Traffic From The Local Specified Port Will Not Pass The Core, Try To Set When The Bypass Gateway Forwarding Fails"
+msgstr "Трафик с локальных указанных портов не будет проходить через ядро. Попробуйте настроить при сбоях пересылки в режиме обходного шлюза (обходного маршрутизатора)"
+
+msgid "Local IPv4 Network Bypassed List"
+msgstr "Локальные IPv4 адреса для обхода"
+
+msgid "Local IPv6 Network Bypassed List"
+msgstr "Локальные IPv6 адреса для обхода"
+
+msgid "The Traffic of The Destination For The Specified Address Will Not Pass The Core"
+msgstr "Трафик с указанным адресом назначения не будет проходить через ядро"
+
+msgid "Force HTTP/3"
+msgstr "Принудительный HTTP/3"
+
+msgid "Force HTTP/3 to connect"
+msgstr "Принудительно использовать HTTP/3 для подключения"
+
+msgid "Unzip Error!"
+msgstr "Ошибка распаковки!"
+
+msgid "Unzip Error"
+msgstr "Ошибка распаковки"
+
+msgid "Switch To Official Version"
+msgstr "Переключиться на официальную версию"
+
+msgid "Switch To Meta Version"
+msgstr "Переключиться на Meta версию"
+
+msgid "Switch(Update) Dashboard Version"
+msgstr "Переключить (обновить) версию Dashboard"
+
+msgid "Switch(Update) Yacd Version"
+msgstr "Переключить (обновить) версию Yacd"
+
+msgid "Update Metacubexd Version"
+msgstr "Обновить версию Metacubexd"
+
+msgid "Update Zashboard Version"
+msgstr "Обновить версию Zashboard"
+
+msgid "Downloading File..."
+msgstr "Загрузка файла..."
+
+msgid "Update Failed"
+msgstr "Обновление не удалось"
+
+msgid "Update Successful"
+msgstr "Обновление успешно"
+
+msgid "Switch Successful"
+msgstr "Переключение успешно"
+
+msgid "Close Old Connections"
+msgstr "Закрыть старые соединения"
+
+msgid "Automatically Close Old Connections When New Unlock Node Selected"
+msgstr "Закрывать все старые соединения соответствующей группы политик при переключении разблокирующей ноды"
+
+msgid "Append Default DNS"
+msgstr "Добавить DNS по умолчанию"
+
+msgid "Automatically Append Compliant DNS to default-nameserver"
+msgstr "Автоматически добавлять соответствующие требованиям DNS в default-nameserver"
+
+msgid "China Mainland Only"
+msgstr "Только материковый Китай"
+
+msgid "Hongkong/Macau/Taiwan"
+msgstr "Гонконг/Макао/Тайвань"
+
+msgid "Taiwan Only"
+msgstr "Только Тайвань"
+
+msgid "Backup Section"
+msgstr "Резервное копирование плагина"
+
+msgid "Backup Exclude Cores"
+msgstr "Не включать ядро в резервную копию"
+
+msgid "Backup Core"
+msgstr "Резервное копирование только ядра"
+
+msgid "Backup Config"
+msgstr "Резервное копирование только конфигурации"
+
+msgid "Backup Rule Provider"
+msgstr "Резервное копирование только наборов правил"
+
+msgid "Backup Proxy Provider"
+msgstr "Резервное копирование только провайдеров прокси"
+
+msgid "Chnroute Bypassed List"
+msgstr "Чёрный список IPv4 для обхода указанных регионов"
+
+msgid "Chnroute6 Bypassed List"
+msgstr "Чёрный список IPv6 для обхода указанных регионов"
+
+msgid "Domains or IPs in The List Will Not be Affected by The China IP Route Option, Depend on Dnsmasq"
+msgstr "Домены или IP в списке не будут затронуты опцией обхода указанных регионов IP. Функция зависит от Dnsmasq"
+
+msgid "Warning: You May Need to Turn off The Rebinding Protection Option of Dnsmasq When Hosts Has Set a Reserved Address..."
+msgstr "Предупреждение: При использовании зарезервированных адресов в Hosts可能需要 отключить защиту от перепривязки в Dnsmasq..."
+
+msgid "Auto Select Logic"
+msgstr "*Логика автовыбора"
+
+msgid "Urltest"
+msgstr "Приоритет низкой задержки"
+
+msgid "Random"
+msgstr "Случайный выбор"
+
+msgid "Tip: You have seted the authentication of SOCKS5/HTTP(S) proxy with"
+msgstr "Подсказка: Вы установили логин и пароль для SOCKS5/HTTP(S) прокси как"
+
+msgid "Google Not CN"
+msgstr "Google (не из Китая)"
+
+msgid "In Fake-ip Mode, Even If This Option is Turned Off, Domain Type Connections Still Pass Through The Core For The Availability"
+msgstr "В режиме Fake-IP, даже если эта опция выключена, соединения доменного типа могут всё равно проходить через ядро для обеспечения доступности"
+
+msgid "Warning: TUN Interface Start Failed, Please Check The Dependence or Try to Restart Again!"
+msgstr "Предупреждение: Не удалось запустить TUN интерфейс, проверьте зависимости или попробуйте перезапустить позже!"
+
+msgid "Warning: TUN Interface Start Failed, Try to Restart Again..."
+msgstr "Предупреждение: Не удалось запустить TUN интерфейс, попытка перезапуска ядра..."
+
+msgid "Error: Core Start Failed, Please Check The Log Infos!"
+msgstr "Ошибка: Не удалось запустить ядро, просмотрите 《Журнал ядра》 для выяснения причины!"
+
+msgid "Error: Core Status Abnormal, Please Check The Log Infos!"
+msgstr "Ошибка: Статус ядра аномален, просмотрите 《Журнал ядра》 для выяснения причины!"
+
+msgid "Forced Sniff Pure IP Connections"
+msgstr "Принудительное обнаружение (sniffing) всех соединений с чистыми IP"
+
+msgid "Forced Sniff Pure IP"
+msgstr "Обнаружение (sniffing) соединений с чистыми IP"
+
+msgid "Download Failed:"
+msgstr "Загрузка не удалась:"
+
+msgid "Warning: Dnsmasq not Support nftset, Use ipset..."
+msgstr "Предупреждение: Dnsmasq не поддерживает nftset, использование ipset вместо..."
+
+msgid "Tip: Firewall4 was Detected, Use NFTABLE Rules..."
+msgstr "Подсказка: Обнаружен Firewall4, использование правил NFTABLE..."
+
+msgid "Specify CN DNS Server"
+msgstr "DNS сервер для доменов Китая"
+
+msgid "Seconds..."
+msgstr "секунд..."
+
+msgid "1. Before modifying the configuration file, please click the button below to read the configuration file"
+msgstr "1. Перед изменением конфигурации нажмите кнопку ниже, чтобы прочитать файл конфигурации"
+
+msgid "2. Proxy-providers address can be directly filled in the subscription link"
+msgstr "2. Адрес провайдеров прокси можно напрямую указывать как ссылку на подписку"
+
+msgid "Custom Tag"
+msgstr "Пользовательская метка"
+
+msgid "Mark as Custom Node to Prevent Retention config from being Deleted When Enabled"
+msgstr "Пометить как пользовательскую ноду, чтобы предотвратить удаление при включении сохранения конфигурации"
+
+msgid "Error: Edit URL-Test URL Failed,"
+msgstr "Ошибка: Не удалось изменить адрес проверки скорости,"
+
+msgid "Error: Edit URL-Test Interval Failed,"
+msgstr "Ошибка: Не удалось изменить интервал проверки скорости,"
+
+msgid "URL-Test Address Modify"
+msgstr "Изменение адреса проверки скорости (доступности)"
+
+msgid "Modify The URL-Test Address In The Config"
+msgstr "Изменить адрес проверки скорости (доступности) в конфигурации"
+
+msgid "URL-Test Interval Modify"
+msgstr "Изменение интервала проверки скорости (доступности)"
+
+msgid "Modify The URL-Test Interval In The Config"
+msgstr "Изменить интервал проверки скорости (доступности) в конфигурации"
+
+msgid "Whether to Enable Process Rules, Only Works on Routerself, If You Are Not Sure, Please Choose off Which Useful in Router Environment, Depend on kmod-inet-diag"
+msgstr "Включать ли правила процессов. Работает только для процессов самого маршрутизатора. Если не уверены, выберите «Выкл.» для повышения производительности в среде маршрутизатора. Зависит от kmod-inet-diag"
+
+msgid "Enable Process Rule"
+msgstr "Включить правила процессов"
+
+msgid "Warning: Because there is a port range"
+msgstr "Предупреждение: Поскольку диапазон портов"
+
+msgid "in the firewall rule settings"
+msgstr "присутствует в настройках правил фаервола"
+
+msgid "auto bypassing may cause the normal connection of the client not to reach the core, if necessary, please add your own in the access control!"
+msgstr "автоматический обход может привести к тому, что нормальные соединения клиентов не достигнут ядра. При необходимости добавьте их самостоятельно в настройках плагина - контроль доступа по исходному трафику!"
+
+msgid "Tip: Start Add Port Bypassing Rules For Firewall Redirect and Firewall Rules..."
+msgstr "Подсказка: Добавление правил обхода портов на основе пересылки портов фаервола и правил связи фаервола..."
+
+msgid "Tip: DNS Hijacking Mode is Dnsmasq Redirect..."
+msgstr "Подсказка: Режим перехвата DNS — пересылка Dnsmasq..."
+
+msgid "Tip: DNS Hijacking Mode is Firewall Redirect..."
+msgstr "Подсказка: Режим перехвата DNS — пересылка через фаервол..."
+
+msgid "Tip: DNS Hijacking is Disabled..."
+msgstr "Подсказка: Перехват DNS не включён..."
+
+msgid "Fake-IP Range"
+msgstr "Диапазон адресов Fake-IP"
+
+msgid "Set Fake-IP Range"
+msgstr "Установить диапазон адресов Fake-IP"
+
+msgid "IPv6 Settings"
+msgstr "Настройки IPv6"
+
+msgid "Custom Config Overwrite Scripts Which Will Run After Plugin Own Completely, Please Be Careful, The Wrong Changes May Lead to Exceptions"
+msgstr "Пользовательские скрипты переопределения конфигурации. Эти скрипты выполняются после завершения переопределения плагином. Изменяйте осторожно,错误的修改可能会导致异常"
+
+msgid "Custom Firewall Rules, Support IPv4 and IPv6, All Rules Will Be Added After Plugin Own Completely"
+msgstr "Пользовательские правила фаервола, поддерживают IPv4 и IPv6. Эти скрипты выполняются после завершения встроенных правил плагина"
+
+msgid "Tip: Start Add Custom Firewall Rules..."
+msgstr "Подсказка: Начало добавления пользовательских правил фаервола..."
+
+msgid "Tip: Start Running Custom Overwrite Scripts..."
+msgstr "Подсказка: Начало выполнения пользовательских скриптов переопределения..."
+
+msgid "Developer Settings"
+msgstr "Опции разработчика"
+
+msgid "Restore"
+msgstr "Восстановить"
+
+msgid "DNS Test"
+msgstr "Тест DNS"
+
+msgid "No Response Found!"
+msgstr "Не удалось получить результат!"
+
+msgid "Client Fingerprint"
+msgstr "Отпечаток клиента"
+
+msgid "Change The Client Fingerprint, Only Support TLS Transport in TCP/GRPC/WS/HTTP For Vless/Vmess and Trojan"
+msgstr "Автоматически изменять TLS отпечаток клиента. В настоящее время поддерживается только Vless/Vmess(TCP/GRPC/WS/HTTP) и Trojan"
+
+msgid "Watchdog: Edit Client-fingerprint Failed,"
+msgstr "Демон: Не удалось изменить Client-fingerprint,"
+
+msgid "Error: Edit Client-fingerprint Failed,"
+msgstr "Ошибка: Не удалось изменить Client-fingerprint,"
+
+msgid "Traffic Control"
+msgstr "Контроль трафика"
+
+msgid "Hide IP"
+msgstr "Скрыть IP адрес"
+
+msgid "Show IP"
+msgstr "Показать IP адрес"
+
+msgid "Router Mode"
+msgstr "Режим маршрутизатора"
+
+msgid "Browser Mode"
+msgstr "Режим браузера"
+
+msgid "Refresh"
+msgstr "Обновить"
+
+msgid "Specify URL"
+msgstr "Указать адрес получения информации о подписке"
+
+msgid "Paste the new url of subscribe infos sources here:"
+msgstr "Вставьте сюда новый адрес источника информации о подписке:"
+
+msgid "Specify subscribe infos sources url successfully!"
+msgstr "Новый адрес источника информации о подписке успешно указан!"
+
+msgid "Delete Specify Subscribe infos sources url successfully!"
+msgstr "Указанный адрес источника информации о подписке удалён!"
+
+msgid "Specify subscribe infos sources url failed:"
+msgstr "Не удалось указать новый адрес источника информации о подписке:"
+
+msgid "IPv6 Proxy Mode"
+msgstr "Режим прокси IPv6"
+
+msgid "TProxy Mode"
+msgstr "Режим TProxy"
+
+msgid "Redirect Mode"
+msgstr "Режим Redirect"
+
+msgid "TUN Mode"
+msgstr "Режим TUN"
+
+msgid "Mix Mode"
+msgstr "Режим Mix混合【UDP-TUN, TCP-пересылка】"
+
+msgid "Tip: IPv6 Proxy Mode is Redirect..."
+msgstr "Подсказка: Режим прокси IPv6 — Redirect..."
+
+msgid "Tip: IPv6 Proxy Mode is TUN..."
+msgstr "Подсказка: Режим прокси IPv6 — TUN..."
+
+msgid "Tip: IPv6 Proxy Mode is TProxy..."
+msgstr "Подсказка: Режим прокси IPv6 — TProxy..."
+
+msgid "Tip: IPv6 Proxy Mode is Mix..."
+msgstr "Подсказка: Режим прокси IPv6 — Mix混合..."
+
+msgid "Warning: Can't Settting Only Intranet Allowed Function, Get IPv4 WAN Interfaces error, Please Verify The Firewall's WAN Zone Name is wan, Ignore This IF The Device Does not Have a WAN Interfaces..."
+msgstr "Предупреждение: Не удалось настроить функцию «Только локальная сеть», ошибка получения имени IPv4 WAN интерфейса. Убедитесь, что в настройках фаервола имя зоны IPv4 WAN — «wan». Если у устройства нет WAN порта, проигнорируйте это сообщение..."
+
+msgid "Warning: Can't Settting Only Intranet Allowed Function, Get IPv6 WAN Interfaces error, Please Verify The Firewall's WAN Zone Name is wan, Ignore This IF The Device Does not Have a WAN Interfaces..."
+msgstr "Предупреждение: Не удалось настроить функцию «Только локальная сеть», ошибка получения имени IPv6 WAN интерфейса. Убедитесь, что в настройках фаервола имя зоны IPv6 WAN — «wan». Если у устройства нет WAN порта, проигнорируйте это сообщение..."
+
+msgid "Config File Download Successful, Test If There is Any Errors..."
+msgstr "Загрузка конфигурации успешна, тестирование на наличие ошибок с помощью ядра..."
+
+msgid "configuration file"
+msgstr "конфигурация"
+
+msgid "test failed"
+msgstr "тестирование не удалось..."
+
+msgid "test is successful"
+msgstr "тестирование успешно..."
+
+msgid "Error: Config File Tested Faild, Please Check The Log Infos!"
+msgstr "Ошибка: Тестирование конфигурации не удалось, просмотрите 《Журнал ядра》 для выяснения причины!"
+
+msgid "Test The Config File First..."
+msgstr "Тестирование конфигурации ядром перед запуском..."
+
+msgid "Other Parameters"
+msgstr "Другие дополнительные настройки"
+
+msgid "Edit Your Other Parameters Here"
+msgstr "Введите ваши дополнительные настройки здесь"
+
+msgid "Error: Config Not Found, Switch Config File to"
+msgstr "Ошибка: Конфигурация не найдена, переключение на конфигурацию"
+
+msgid "Enable Unified Delay"
+msgstr "*Включить единую задержку"
+
+msgid "Change The Delay Calculation Method To Remove Extra Delays Such as Handshaking"
+msgstr "Изменение метода расчёта задержки для удаления дополнительных задержек, таких как рукопожатие, и снижения значения задержки"
+
+msgid "Tip: If the download fails, try setting the CDN in Overwrite Settings - General Settings - Github Address Modify Options"
+msgstr "Подсказка: Если загрузка не удалась, вы можете попробовать настроить CDN в Переопределение настроек - Основные настройки - Опции изменения адреса Github"
+
+msgid "Used for Downloading Subscriptions, Defaults to Clash"
+msgstr "Используется для загрузки подписок с указанием User-Agent, по умолчанию Clash"
+
+msgid "Error: Set Proxies Address Skip Failed,"
+msgstr "Ошибка: Не удалось настроить обход адресов серверов прокси,"
+
+msgid "Flush Failed"
+msgstr "Очистка не удалась"
+
+msgid "Respect Rules"
+msgstr "Следовать правилам"
+
+msgid "Whether or not The Connection to the DNS Server Follow the Rules in Config"
+msgstr "Следует ли соединению с DNS-сервером правилам, указанным в конфигурации"
+
+msgid "To Use in Fake-IP Mode, Please Switch The Dns Redirect Mode To Firewall Forwarding"
+msgstr "Для использования в режиме Fake-IP переключите режим перехвата DNS на пересылку через фаервол"
+
+msgid "Skip Proxy Address"
+msgstr "Обходить адреса серверов"
+
+msgid "Bypassing Server Addresses And Preventing Duplicate Proxies"
+msgstr "Обход адресов серверов для предотвращения дублирования прокси"
+
+msgid "Warning: Unsupported format, Proxies Address Skip Function Ignore Proxy-providers File"
+msgstr "Предупреждение: Неподдерживаемый формат, функция обхода адресов серверов прокси игнорирует файл провайдеров прокси"
+
+msgid "Custom Your CDN URL"
+msgstr "Настроить свой URL ссылки"
+
+msgid "Type CDN URL, Format Like"
+msgstr "Введите URL ссылки, формат参考"
+
+msgid "Please enter a valid URL!"
+msgstr "Введите корректный URL ссылки согласно примеру!"
+
+msgid "WAN Interface Name"
+msgstr "Имя WAN интерфейса"
+
+msgid "Select WAN Interface Name For The Intranet Allowed"
+msgstr "Укажите правильное имя WAN интерфейса для функции «Только локальная сеть»"
+
+msgid "LAN Interface Name"
+msgstr "Имя LAN интерфейса"
+
+msgid "Select LAN Interface Name"
+msgstr "Укажите правильное имя LAN интерфейса"
+
+msgid "For More Useful Meta Core Functions Go Wiki"
+msgstr "Для получения дополнительной информации о функциях Meta ядра посетите Wiki"
+
+msgid "Tip: Because Need Ensure Bypassing IP Option Work, Deleted The Fake-IP-Filter Rule"
+msgstr "Подсказка: Для обеспечения работы опции обхода IP, правило удалено из Fake-IP-Filter"
+
+msgid "Tip: Because Need Ensure Bypassing IP Option Work, Added The Fake-IP-Filter Rule"
+msgstr "Подсказка: Для обеспечения работы опции обхода IP, правило добавлено в Fake-IP-Filter"
+
+msgid "Fake-IP is not returned if the matching succeeds when blacklist mode or Fake-IP is returned if the matching succeeds when whitelist mode"
+msgstr "В режиме чёрного списка при успешном совпадении Fake-IP не возвращается. В режиме белого списка Fake-IP возвращается только при успешном совпадении"
+
+msgid "Blacklist Mode"
+msgstr "Режим чёрного списка"
+
+msgid "Whitelist Mode"
+msgstr "Режим белого списка"
+
+msgid "Cached Compliant Nodes Number:"
+msgstr "Количество закэшированных нод, соответствующих приоритетным условиям проверки:"
+
+msgid ", Cached Non-compliant Nodes Number:"
+msgstr ", количество нод, не соответствующих приоритетным условиям проверки:"
+
+msgid ", Prioritize Testing With Cached Compliant Nodes..."
+msgstr ", приоритетная проверка с использованием соответствующих условиям нод..."
+
+msgid "Flush Unlock Test Cache"
+msgstr "Очистить кэш проверки разблокировки"
+
+msgid "Flush Cache"
+msgstr "Очистить кэш"
+
+msgid "ECS Subnet"
+msgstr "Адрес региона ECS"
+
+msgid "Specify the ECS Subnet Address"
+msgstr "Указать адрес подсети региона ECS"
+
+msgid "ECS Override"
+msgstr "Переопределение адреса региона ECS"
+
+msgid "Override the ECS Subnet Address"
+msgstr "Принудительно переопределить адрес подсети региона для DNS запросов"
+
+msgid "Tip: Respect-rules Option Need Proxy-server-nameserver Option Must Be Setted, Auto Set to"
+msgstr "Подсказка: При использовании функции Respect-rules параметр Proxy-server-nameserver должен быть настроен, плагин установит его по умолчанию на"
+
+msgid "Tip: Nameserver Option Maybe All Setted The Proxy Option, Auto Set Proxy-server-nameserver Option to"
+msgstr "Подсказка: В опции Nameserver, возможно, все серверы настроены с опцией прокси, плагин автоматически установил опцию Proxy-server-nameserver на"
+
+msgid "Tip: Proxy-server-nameserver Option Maybe All Setted The Proxy Option, Auto Set Proxy-server-nameserver Option to"
+msgstr "Подсказка: В опции Proxy-server-nameserver, возможно, все серверы настроены с опцией прокси, плагин автоматически добавил настройки для опции Proxy-server-nameserver"
+
+msgid "For Avoiding Proxies Server Resolve Loop..."
+msgstr "Во избежание петли разрешения серверов прокси..."
+
+msgid "Tip: Config File"
+msgstr "Подсказка: Конфигурация"
+
+msgid "Downloading URL"
+msgstr "Ссылка для загрузки подписки"
+
+msgid "Downloading User-Agent"
+msgstr "User-Agent для подписки"
+
+msgid "Warning: Option"
+msgstr "Предупреждение: Опция"
+
+msgid "Tip: Option"
+msgstr "Подсказка: Опция"
+
+msgid "is Setted"
+msgstr "установлена"
+
+msgid "as DNS Server Which May Cause DNS Loop, Please Consider Removing It When DNS Works Abnormally..."
+msgstr "в качестве DNS-сервера, что может вызвать ошибку DNS-петли. При обнаружении аномальной работы DNS рассмотрите возможность удаления этой настройки..."
+
+msgid "as DNS Server Which May Cause DNS Loop, Already Remove It..."
+msgstr "в качестве DNS-сервера, что может вызвать ошибку DNS-петли, настройка удалена..."
+
+msgid "Error: Set Custom DNS Failed,"
+msgstr "Ошибка: Не удалось настроить пользовательский DNS,"
+
+msgid "Error: Set proxy-server-nameserver Failed,"
+msgstr "Ошибка: Не удалось настроить proxy-server-nameserver,"
+
+msgid "Error: Set direct-nameserver Failed,"
+msgstr "Ошибка: Не удалось настроить direct-nameserver,"
+
+msgid "Error: Set fallback-filter Failed,"
+msgstr "Ошибка: Не удалось настроить fallback-filter,"
+
+msgid "Rule"
+msgstr "Правило"
+
+msgid "Global"
+msgstr "Глобальный"
+
+msgid "Direct"
+msgstr "Прямой"
+
+msgid "Error: Config File Overwrite Failed,"
+msgstr "Ошибка: Не удалось переопределить конфигурацию,"
+
+msgid "Edit"
+msgstr "Редактировать"
+
+msgid "Proto"
+msgstr "Протокол связи"
+
+msgid "Family"
+msgstr "Тип адреса"
+
+msgid "Comment"
+msgstr "Примечание"
+
+msgid "Internal addresses"
+msgstr "Внутренние адреса"
+
+msgid "Internal ports"
+msgstr "Внутренние порты"
+
+msgid "Target"
+msgstr "Объект"
+
+msgid "Error: Network Anomaly, Suspend Unlock Detection..."
+msgstr "Ошибка: Сетевая аномалия, приостановка проверки разблокировки..."
+
+msgid "(Not Support mrs Format)"
+msgstr "(Не поддерживает формат mrs)"
+
+msgid "UpDate"
+msgstr "Обновить"
+
+msgid "Local Network"
+msgstr "Адрес внутренней сети"
+
+msgid "Error: LAN IP Address Get Error, Please Check The LAN Interface Setting or Choose the Correct Interface in the Setting!"
+msgstr "Ошибка: Не удалось получить IP-адрес LAN, проверьте настройки интерфейса LAN или выберите правильное имя интерфейса в настройках плагина!"
+
+msgid "Warning: Skiped The Custom Rule Because Group & Proxy Not Found:"
+msgstr "Предупреждение: Во избежание сбоя запуска, пропущено добавление этого пользовательского правила из-за отсутствия соответствующей группы политик или прокси:"
+
+msgid "Disable quic-go GSO Support"
+msgstr "Отключить поддержку quic-go GSO"
+
+msgid "Suggestion: If Encountering Issues With QUIC UDP on The Linux Kernel Version Above 6.6, Please Try to Enable."
+msgstr "Рекомендация: Если возникают проблемы с UDP соединениями quic-go при версии ядра Linux выше 6.6, попробуйте включить эту опцию."
+
+msgid "Drop The Type of DNS Responsed"
+msgstr "Отбрасывать указанный тип DNS ответов"
+
+msgid "Disable-IPv4"
+msgstr "Отключить IPv4"
+
+msgid "Disable-IPv6"
+msgstr "Отключить IPv6"
+
+msgid "Smart Core"
+msgstr "Smart ядро"
+
+msgid "Error: Failed to create update script!"
+msgstr "Ошибка: Не удалось создать процесс обновления плагина!"
+
+msgid "Attempting to start update service..."
+msgstr "Запуск процесса обновления плагина..."
+
+msgid "Service start failed, retrying in 2 seconds..."
+msgstr "Не удалось запустить процесс обновления плагина, повторная попытка через 2 секунды..."
+
+msgid "Error: Failed to start update service after 3 attempts, please check and try again later..."
+msgstr "Ошибка: Не удалось запустить процесс обновления плагина, проверьте журналы и повторите позже..."
+
+msgid "Core Update"
+msgstr "Обновление версии ядра"
+
+msgid "View core infos that support smart group"
+msgstr "Просмотреть информацию о ядрах, поддерживающих smart группы политик"
+
+msgid "Control panel address copied:"
+msgstr "Адрес панели управления скопирован:"
+
+msgid "Control panel secret copied:"
+msgstr "Секрет панели управления скопирован:"
+
+msgid "No control panel secret set"
+msgstr "Секрет панели управления не установлен"
+
+msgid "Proxy auth info copied:"
+msgstr "Информация аутентификации прокси скопирована:"
+
+msgid "No proxy auth info set"
+msgstr "Информация аутентификации прокси не установлена"
+
+msgid "Proxy info not available, please try again later"
+msgstr "Не удалось получить информацию о прокси, попробуйте позже"
+
+msgid "Mix proxy address copied:"
+msgstr "Адрес смешанного прокси скопирован:"
+
+msgid "Mix Proxy"
+msgstr "Смешанный прокси"
+
+msgid "Area Bypass"
+msgstr "Обход региона"
+
+msgid "Area bypass setting switched to:"
+msgstr "Настройка обхода региона переключена на:"
+
+msgid "Area bypass setting failed"
+msgstr "Не удалось переключить настройку обхода региона"
+
+msgid "Sniffer"
+msgstr "Сниффинг доменных имён"
+
+msgid "Sniffer setting"
+msgstr "Сниффинг доменных имён"
+
+msgid "Sniffer setting failed"
+msgstr "Не удалось переключить настройку сниффинга"
+
+msgid "DNS Proxy"
+msgstr "DNS прокси"
+
+msgid "Respect Rules setting"
+msgstr "DNS прокси"
+
+msgid "Respect Rules setting failed"
+msgstr "Не удалось переключить настройку DNS прокси"
+
+msgid "Copy failed, please copy manually:"
+msgstr "Не удалось скопировать, скопируйте вручную:"
+
+msgid "Copy Address"
+msgstr "Копировать адрес"
+
+msgid "Copy Secret"
+msgstr "Копировать секрет"
+
+msgid "Copy Auth Info"
+msgstr "Копировать информацию аутентификации"
+
+msgid "Not Available"
+msgstr "Недоступно"
+
+msgid "Off"
+msgstr "Выкл"
+
+msgid "Mainland"
+msgstr "Материк"
+
+msgid "Oversea"
+msgstr "Зарубежье"
+
+msgid "On"
+msgstr "Вкл"
+
+msgid "Get PAC Config"
+msgstr "Получить PAC конфигурацию"
+
+msgid "PAC file URL copied:"
+msgstr "URL файла PAC скопирован:"
+
+msgid "PAC file URL:"
+msgstr "URL файла PAC:"
+
+msgid "PAC file generation failed"
+msgstr "Не удалось создать файл PAC"
+
+msgid "Proxy service not available, please try again later"
+msgstr "Служба прокси недоступна, попробуйте позже"
+
+msgid "No authentication configured, please be aware of the risk of information leakage!"
+msgstr "Аутентификация прокси не настроена,请注意信息泄露风险!"
+
+msgid "Other"
+msgstr "Другое"
+
+msgid "Apply"
+msgstr "Применить"
+
+msgid "Proxy service not running"
+msgstr "Служба прокси не запущена"
+
+msgid "Unable to get proxy IP"
+msgstr "Не удалось получить IP прокси"
+
+msgid "Failed to write PAC file"
+msgstr "Не удалось создать файл PAC"
+
+msgid "Downloading:"
+msgstr "Прогресс загрузки:"
+
+msgid "Downloading..."
+msgstr "Загрузка..."
+
+msgid "Sniff the domain name of the traffics to avoid rule-based proxy failure"
+msgstr "Сниффинг доменных имён трафика для предотвращения сбоев прокси на основе правил"
+
+msgid "DNS querys respect-rules to preventing access failure"
+msgstr "DNS-запросы следуют правилам для проксирования, предотвращая сбои доступа"
+
+msgid "Upload File"
+msgstr "Загрузить файл"
+
+msgid "Subscribe Link"
+msgstr "Ссылка на подписку"
+
+msgid "Click to select file or drag and drop"
+msgstr "Нажмите для выбора файла или перетащите"
+
+msgid "Support YAML file, max size 10MB"
+msgstr "Поддерживается файл YAML, макс. размер 10 МБ"
+
+msgid "Support txt,conf files, max size 10MB"
+msgstr "Поддерживаются файлы txt,conf, макс. размер 10 МБ"
+
+msgid "Subscription URL"
+msgstr "Адрес подписки"
+
+msgid "User-Agent"
+msgstr "User-Agent"
+
+msgid "Optional"
+msgstr "Опционально"
+
+msgid "Custom"
+msgstr "Пользовательский"
+
+msgid "Config Name"
+msgstr "Имя конфигурации"
+
+msgid "Enter config name (without extension)"
+msgstr "Введите имя конфигурации (без расширения)"
+
+msgid "Processing..."
+msgstr "Обработка..."
+
+msgid "Ready to add config"
+msgstr "Готово к добавлению конфигурации"
+
+msgid "Cancel"
+msgstr "Отмена"
+
+msgid "Add Config"
+msgstr "Добавить конфигурацию"
+
+msgid "Ready to upload file"
+msgstr "Готово к загрузке файла"
+
+msgid "Ready to add subscription"
+msgstr "Готово к добавлению подписки"
+
+msgid "File selected:"
+msgstr "Выбран файл:"
+
+msgid "Size:"
+msgstr "Размер:"
+
+msgid "Please select a YAML file"
+msgstr "Выберите файл YAML"
+
+msgid "File size exceeds 10MB limit"
+msgstr "Размер файла превышает лимит 10 МБ"
+
+msgid "File ready to upload"
+msgstr "Файл готов к загрузке"
+
+msgid "Please enter a filename"
+msgstr "Введите имя файла"
+
+msgid "Filename contains invalid characters"
+msgstr "Имя файла содержит недопустимые символы"
+
+msgid "Uploading..."
+msgstr "Загрузка..."
+
+msgid "Upload completed"
+msgstr "Загрузка завершена"
+
+msgid "Upload successful"
+msgstr "Загрузка успешна"
+
+msgid "Upload failed:"
+msgstr "Загрузка не удалась:"
+
+msgid "Failed to read file"
+msgstr "Не удалось прочитать файл"
+
+msgid "Please enter subscription URL and config name"
+msgstr "Введите URL подписки и имя конфигурации"
+
+msgid "Invalid subscription URL format"
+msgstr "Неверный формат URL подписки"
+
+msgid "Config name contains invalid characters"
+msgstr "Имя конфигурации содержит недопустимые символы"
+
+msgid "Adding subscription..."
+msgstr "Добавление подписки..."
+
+msgid "Failed to download subscription config"
+msgstr "Не удалось загрузить конфигурацию подписки"
+
+msgid "Failed to add subscription"
+msgstr "Не удалось добавить подписку"
+
+msgid "Subscription added successfully"
+msgstr "Подписка успешно добавлена"
+
+msgid "Process failed"
+msgstr "Обработка не удалась"
+
+msgid "Close"
+msgstr "Закрыть"
+
+msgid "Loading..."
+msgstr "Загрузка..."
+
+msgid "Minimize"
+msgstr "Свернуть"
+
+msgid "Maximize"
+msgstr "Развернуть"
+
+msgid "Download"
+msgstr "Скачать"
+
+msgid "Save"
+msgstr "Сохранить"
+
+msgid "Compare"
+msgstr "Сравнить"
+
+msgid "Loading config file..."
+msgstr "Загрузка конфигурации..."
+
+msgid "Ready"
+msgstr "Готово"
+
+msgid "Press F11 for fullscreen, Esc to exit fullscreen, Ctrl+Mouse Wheel to zoom"
+msgstr "F11 — полноэкранный режим, Esc — выход, Ctrl + Колесо мыши — масштаб"
+
+msgid "Press F10 to toggle differences, F11 for fullscreen, Esc to exit fullscreen, Ctrl+Mouse Wheel to zoom"
+msgstr "F10 — показать Diff, F11 — полноэкранный режим, Esc — выход, Ctrl + Колесо мыши — масштаб"
+
+msgid "Compare mode: left(Original Config), right(Runtime Config)"
+msgstr "Режим сравнения: слева (Исходная конфигурация), справа (Рабочая конфигурация)"
+
+msgid "Please select a config file first"
+msgstr "Сначала выберите файл конфигурации"
+
+msgid "No config files found, Please upload a config file to get started"
+msgstr "Файлы конфигурации не найдены, сначала загрузите или подпишитесь на конфигурацию"
+
+msgid "Unknown"
+msgstr "Неизвестно"
+
+msgid "Failed to load config file"
+msgstr "Не удалось загрузить конфигурацию"
+
+msgid "Load failed"
+msgstr "Загрузка не удалась"
+
+msgid "Config file content is empty"
+msgstr "Содержимое конфигурации пусто"
+
+msgid "Saved successfully"
+msgstr "Успешно сохранено"
+
+msgid "Save failed"
+msgstr "Сохранение не удалось"
+
+msgid "Failed to save config file:"
+msgstr "Не удалось сохранить конфигурацию:"
+
+msgid "Unknown error"
+msgstr "Неизвестная ошибка"
+
+msgid "Save config failed:"
+msgstr "Не удалось сохранить конфигурацию:"
+
+msgid "Editor not ready"
+msgstr "Редактор не готов"
+
+msgid "Download started"
+msgstr "Загрузка началась"
+
+msgid "Download failed:"
+msgstr "Загрузка не удалась:"
+
+msgid "You have unsaved changes. Are you sure you want to close?"
+msgstr "У вас есть несохранённые изменения. Закрыть?"
+
+msgid "Restart"
+msgstr "Перезапустить"
+
+msgid "No Config Selected"
+msgstr "Конфигурация не выбрана"
+
+msgid "Modified: "
+msgstr "Изменено: "
+
+msgid "Update Time: "
+msgstr "Время обновления: "
+
+msgid "No Config Files Found"
+msgstr "Файлы конфигурации не найдены"
+
+msgid "Please select a config file"
+msgstr "Выберите файл конфигурации"
+
+msgid "Failed to load config files"
+msgstr "Не удалось загрузить конфигурации"
+
+msgid "Update"
+msgstr "Обновить"
+
+msgid "Failed to get startup log after retries"
+msgstr "После повторных попыток не удалось получить журнал запуска"
+
+msgid "Starting..."
+msgstr "Запуск..."
+
+msgid "Stopping..."
+msgstr "Остановка..."
+
+msgid "Failed to start OpenClash"
+msgstr "Не удалось запустить OpenClash"
+
+msgid "Failed to stop OpenClash"
+msgstr "Не удалось остановить OpenClash"
+
+msgid "Operation Failed"
+msgstr "Операция не удалась"
+
+msgid "Switching Config..."
+msgstr "Переключение конфигурации..."
+
+msgid "Failed to switch config file:"
+msgstr "Не удалось переключить конфигурацию:"
+
+msgid "Switch Failed"
+msgstr "Переключение не удалось"
+
+msgid "Updating Config..."
+msgstr "Обновление конфигурации..."
+
+msgid "Failed to update config file:"
+msgstr "Не удалось обновить конфигурацию:"
+
+msgid "Failed to update config file, please try again later"
+msgstr "Не удалось обновить конфигурацию, попробуйте позже"
+
+msgid "Restarting..."
+msgstr "Перезапуск..."
+
+msgid "Failed to restart core"
+msgstr "Не удалось перезапустить ядро"
+
+msgid "Invalid config file selected"
+msgstr "Выбрана недействительная конфигурация"
+
+msgid "Config uploader not ready, please try again"
+msgstr "Загрузчик конфигурации не готов, повторите попытку"
+
+msgid "Config editor not ready, please try again"
+msgstr "Редактор конфигурации не готов, повторите попытку"
+
+msgid "New version available"
+msgstr "Доступна новая версия"
+
+msgid "Failed to get subscription config"
+msgstr "Не удалось получить конфигурацию подписки"
+
+msgid "Expire Date"
+msgstr "Срок действия"
+
+msgid "RAW address"
+msgstr "Исходный адрес"
+
+msgid "Enter custom User-Agent"
+msgstr "Введите пользовательский User-Agent"
+
+msgid "Stream Unlock"
+msgstr "Разблокировка стриминга"
+
+msgid "Previous"
+msgstr "Предыдущий"
+
+msgid "Next"
+msgstr "Следующий"
+
+msgid "Enter subscription URL or multiple links (one per line)"
+msgstr "Введите URL подписки или несколько ссылок (по одной на строку)"
+
+msgid "Enter custom convert address"
+msgstr "Введите пользовательский адрес преобразования"
+
+msgid "Enter custom template URL"
+msgstr "Введите пользовательский URL шаблона"
+
+msgid "eg: rename=match@replace, one param per line"
+msgstr "Например: rename=match@replace, один параметр на строку"
+
+msgid "Enter keywords to include nodes (one per line)"
+msgstr "Введите ключевые слова для включения нод (по одному на строку)"
+
+msgid "Enter keywords to exclude nodes (one per line)"
+msgstr "Введите ключевые слова для исключения нод (по одному на строку)"
+
+msgid "Expire Time"
+msgstr "Время истечения"
+
+msgid "Remaining Traffic"
+msgstr "Оставшийся трафик"
+
+msgid "TG Group"
+msgstr "TG группа"
+
+msgid "Invalid subscription URL format. Support HTTP/HTTPS subscription URLs or protocol links, can be separated by newlines or |"
+msgstr "Неверный формат URL подписки. Поддерживаются HTTP/HTTPS URL подписок или ссылки протоколов, можно разделять переводом строки или |"
+
+msgid "Invalid subscription URL format. Only single HTTP/HTTPS subscription URL is supported when subscription conversion is disabled"
+msgstr "Неверный формат URL подписки. При отключённом преобразовании подписок поддерживается только одиночный HTTP/HTTPS URL подписки"
+
+msgid "Advanced Options"
+msgstr "Расширенные настройки"
+
+msgid "Show more subscription options"
+msgstr "Показать больше настроек подписки"
+
+msgid "Overwrite"
+msgstr "Переопределить"
+
+msgid "Original Config"
+msgstr "Исходная конфигурация"
+
+msgid "Runtime Config"
+msgstr "Рабочая конфигурация"
+
+msgid "Runtime config (read only)"
+msgstr "Рабочая конфигурация (только чтение)"
+
+msgid "Start Downloading LightGBM Model..."
+msgstr "Начало загрузки модели LightGBM..."
+
+msgid "LightGBM Model Download Success, Check Updated..."
+msgstr "Загрузка модели LightGBM успешна, проверка на обновления..."
+
+msgid "LightGBM Model Has Been Updated, Starting To Replace The Old Version..."
+msgstr "Модель LightGBM обновилась, замена старой версии..."
+
+msgid "LightGBM Model Update Successful!"
+msgstr "Модель LightGBM успешно обновлена!"
+
+msgid "Updated LightGBM Model No Change, Do Nothing..."
+msgstr "Модель LightGBM не изменилась, операция остановлена..."
+
+msgid "LightGBM Model Update Error, Please Try Again Later..."
+msgstr "Ошибка обновления модели LightGBM, проверьте сеть или попробуйте позже..."
+
+msgid "Smart Auto Switch"
+msgstr "Автопереключение Smart политик"
+
+msgid "Auto Switch Url-test and Load-balance Group to Smart Group"
+msgstr "Автоматическое переключение групп политик Url-test и Load-balance на Smart группу"
+
+msgid "Enable LightGBM Model"
+msgstr "Включить модель LightGBM"
+
+msgid "Use LightGBM Model To Predict Weight"
+msgstr "Использовать модель LightGBM для предсказания весов"
+
+msgid "Auto Update LightGBM Model"
+msgstr "Автообновление модели"
+
+msgid "Custom Model URL"
+msgstr "Пользовательский URL для обновления модели"
+
+msgid "Update Model"
+msgstr "Обновить модель"
+
+msgid "Custom LightGBM Model URL, Click Button Below To Refresh After Edit"
+msgstr "Пользовательский источник обновления модели. После редактирования нажмите кнопку ниже для применения"
+
+msgid "Colletct Training Data"
+msgstr "Собирать данные для обучения"
+
+msgid "Data Colletct File Size (MB)"
+msgstr "Размер файла собираемых данных (МБ)"
+
+msgid "Limit The File Size of Collected Data, The Default is 100MB"
+msgstr "Ограничить размер файла собираемых данных, по умолчанию 100 МБ"
+
+msgid "Data Colletct Rate"
+msgstr "Частота сбора данных"
+
+msgid "Data Acquisition Rate, Desirable Values are 0-1, The Default is 1"
+msgstr "Указать частоту сбора данных, значение от 0 до 1, по умолчанию 1"
+
+msgid "Node Select Strategy"
+msgstr "Стратегия выбора нод"
+
+msgid "Before Node Data Collect Completely, The Default is Sticky-sessions"
+msgstr "До сбора достаточного количества данных и оптимизации, использовать указанную стратегию выбора нод, по умолчанию липкие сессии (sticky-sessions)"
+
+msgid "Error: Setting Smart Auto Switch Failed,"
+msgstr "Ошибка: Не удалось выполнить автопереключение Smart групп политик,"
+
+msgid "Flush Smart Cache"
+msgstr "Очистить кэш Smart"
+
+msgid "Current Version:"
+msgstr "Текущая версия:"
+
+msgid "Light Version"
+msgstr "Облегчённая версия"
+
+msgid "Middle Version"
+msgstr "Средняя версия"
+
+msgid "Large Version"
+msgstr "Полная версия"
+
+msgid "Add New File"
+msgstr "Добавить новый файл"
+
+msgid "Local File"
+msgstr "Локальный файл"
+
+msgid "Refresh Subscription"
+msgstr "Обновить подписку"
+
+msgid "Refreshing subscription..."
+msgstr "Обновление подписки..."
+
+msgid "Subscription refreshed successfully"
+msgstr "Подписка успешно обновлена"
+
+msgid "Subscription refresh failed"
+msgstr "Не удалось обновить подписку"
+
+msgid "Edit Subscription Info"
+msgstr "Редактировать информацию о подписке"
+
+msgid "Are you sure you want to delete this file and its subscription info?"
+msgstr "Вы уверены, что хотите удалить этот файл и информацию о его подписке?"
+
+msgid "Add Overwrite Module"
+msgstr "Добавить модуль переопределения"
+
+msgid "Ready to add file"
+msgstr "Готово к добавлению файла"
+
+msgid "openclash_custom_overwrite.sh already exists and cannot be added again"
+msgstr "openclash_custom_overwrite.sh уже существует, повторное добавление невозможно"
+
+msgid "Created successfully"
+msgstr "Успешно создано"
+
+msgid "Please enter subscription URL"
+msgstr "Введите URL подписки"
+
+msgid "Invalid subscription URL format, only single HTTP/HTTPS link is supported"
+msgstr "Неверный формат URL подписки, поддерживается только одиночная HTTP/HTTPS ссылка"
+
+msgid "Downloading subscription content..."
+msgstr "Загрузка содержимого подписки..."
+
+msgid "Download completed"
+msgstr "Загрузка завершена"
+
+msgid "Failed to save subscription info:"
+msgstr "Не удалось сохранить информацию о подписке:"
+
+msgid "Ready to edit"
+msgstr "Готово к редактированию"
+
+msgid "Subscription saved successfully"
+msgstr "Подписка успешно сохранена"
+
+msgid "Failed to save subscription"
+msgstr "Не удалось сохранить подписку"
+
+msgid "Environment variable"
+msgstr "Переменная окружения"
+
+msgid "Warning: DOWNLOAD FILE no target in"
+msgstr "Предупреждение: Загрузка файла не указала параметр цели в"
+
+msgid "Error: DOWNLOAD FILE failed for"
+msgstr "Ошибка: Загрузка файла не удалась для"
+
+msgid "Warning: skip General key not allowed"
+msgstr "Предупреждение: Пропуск неподдерживаемого параметра"
+
+msgid "Warning: skip General key type error"
+msgstr "Предупреждение: Пропуск параметра с ошибкой типа значения"
+
+msgid "Warning: skip invalid Overwrite command"
+msgstr "Предупреждение: Пропуск неподдерживаемой команды переопределения"
+
+msgid "Tip: Processing Overwrite Module"
+msgstr "Подсказка: Выполнение модуля переопределения"
+
+msgid "Tip: Load Overwrite Script"
+msgstr "Подсказка: Загрузка команды переопределения"
+
+msgid "Tip: DOWNLOAD FILE for"
+msgstr "Подсказка: Выполнение загрузки файла для"
+
+msgid "Tip: Add Cron for"
+msgstr "Подсказка: Добавление правила планировщика для"
+
+msgid "Delete"
+msgstr "Удалить"
+
+msgid "Delete failed"
+msgstr "Удаление не удалось"
+
+msgid "Overwrite Module Edit"
+msgstr "Редактирование модуля переопределения"
+
+msgid "Nodes Weight Priority, <1 Means Lower Priority, >1 Means Higher Priority, The Default is 1, Pattern Support Regex and String"
+msgstr "Бонус веса нод. <1 означает более низкий приоритет, >1 означает более высокий приоритет, по умолчанию 1. Шаблон поддерживает Regex и строку"
+
+msgid "Edit Module Info"
+msgstr "Редактировать информацию о модуле"
+
+msgid "Subscription"
+msgstr "Подписка"
+
+msgid "Overwrite Module"
+msgstr "Модуль переопределения"
+
+msgid "module not found, please check your system depends if something abnormal!"
+msgstr "Модуль не найден, при возникновении аномалий проверьте зависимости вашей системы!"
+
+msgid "Select Nodes Force Lookup and Use Target ASN Info First For More Stable Experience"
+msgstr "При выборе нод принудительно искать и优先使用 информации ASN цели для более стабильного опыта"
+
+msgid "Prefer-ASN"
+msgstr "Приоритет ASN"
+
+msgid "Theme Switch"
+msgstr "Переключение темы"
