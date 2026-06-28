@@ -13,7 +13,7 @@
 
 
 <!-- STATS_START -->
-<!-- auto-updated by GitHub Actions · 2026-06-28 14:54 UTC -->
+<!-- auto-updated by GitHub Actions · 2026-06-28 14:58 UTC -->
 
 [![Views local](https://img.shields.io/badge/Views_local-0-ff6900?style=for-the-badge&logo=github)](https://github.com/gooog1111/luci-i18n-OpenClash-ru)
 [![Views GitHub](https://img.shields.io/badge/Views_GitHub-0-ff6900?style=for-the-badge&logo=github)](https://github.com/gooog1111/luci-i18n-OpenClash-ru)
@@ -50,7 +50,7 @@
 
 
 <!-- ISSUES_START -->
-<!-- auto-updated by GitHub Actions · 2026-06-28 14:54 UTC -->
+<!-- auto-updated by GitHub Actions · 2026-06-28 14:58 UTC -->
 
 ## Issues
 
