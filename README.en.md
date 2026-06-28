@@ -1,5 +1,5 @@
 <!-- LANG_START -->
-🇬🇧 [English version](README.en.md)
+🇷🇺 [Русская версия](README.md)
 <!-- LANG_END -->
 
 <div align="center">
@@ -62,18 +62,18 @@
 </p>
 
 <details open>
-<summary><b>Открытые issues</b></summary>
+<summary><b>Open issues</b></summary>
 
 
 <p align="center">
-  <b>Issues отключены в настройках репозитория.</b>
+  <b>Issues are disabled in this repository.</b>
 </p>
 
 
 </details>
 
 <p>
-  <a href="https://github.com/gooog1111/luci-i18n-OpenClash-ru/issues">Все issues</a>
+  <a href="https://github.com/gooog1111/luci-i18n-OpenClash-ru/issues">All issues</a>
 </p>
 
 <!-- ISSUES_END -->
@@ -83,67 +83,67 @@
 
 ## Russian Translation for OpenClash
 
-## 📝 Описание
+## 📝 Description
 
-Русская локализация для интерфейса OpenClash - клиента Clash для OpenWrt. Этот пакет предоставляет полный перевод интерфейса управления OpenClash на русский язык.
+Russian localization for the OpenClash interface - the Clash client for OpenWrt. This package provides a complete translation of the OpenClash management interface into Russian.
 
-> ⚠️ **Примечание**: Перевод был выполнен с помощью искусственного интеллекта и может содержать неточности. Мы будем благодарны за ваши исправления и предложения!
+> ⚠️ **Note**: The translation was made using artificial intelligence and may contain inaccuracies. We would appreciate your corrections and suggestions!
 
-## ✨ Особенности
+## ✨ Features
 
-- 🎯 **Полный перевод** - все элементы интерфейса переведены на русский язык
-- 🔧 **Техническая точность** - сохранены все технические термины и названия сервисов
-- 📱 **Адаптивный дизайн** - корректное отображение на всех устройствах
-- ⚡ **Лёгкий вес** - минимальное влияние на производительность
+- 🎯 **Full translation** - all interface elements are translated into Russian
+- 🔧 **Technical accuracy** - all technical terms and service names are saved
+- 📱 **Adaptive design** - correct display on all devices
+- ⚡ **Light weight** - minimal impact on performance
 
-## 📦 Установка
+## 📦 Installation
 
-### Ручная установка
+## # Manual installation
 
-2. Установите пакет:
+2. Install the package:
 ```bash
 wget -O /usr/lib/lua/luci/i18n/openclash.ru.lmo "https://github.com/gooog1111/luci-i18n-openclash-ru/releases/latest/download/openclash.ru.lmo"
 ```
 
-## 🔧 Настройка языка
+## 🔧 Language settings
 
-После установки:
+After installation:
 
-1. Перейдите в **Система → Язык и стиль**
-2. Выберите **Русский (Russian)** в выпадающем списке
-3. Нажмите **Сохранить и применить**
+1. Go to **System → Language and Style**
+2. Select **Russian** from the drop-down list
+3. Click **Save and Apply**
 
-Или установите язык через командную строку:
+Or install the language via the command line:
 ```bash
 uci set luci.main.lang=ru
 uci commit luci
 ```
 
-## 🐛 Сообщение об ошибках
+## 🐛 Error messages
 
-Если вы нашли ошибки в переводе или у вас есть предложения по улучшению:
+If you find errors in the translation or have suggestions for improvement:
 
-1. Создайте Issue в этом репозитории
-2. Или предложите правки через Pull Request
+1. Create an Issue in this repository
+2. Or suggest edits via Pull Request
 
-## 🤝 Поддержка проекта
+## 🤝 Project support
 
-Если этот перевод был вам полезен, поставьте ⭐ звезду репозиторию!
+If this translation was useful to you, please give the repository a ⭐ star!
 
-[![Stargazers over time](https://starchart.cc/gooog1111/luci-i18n-OpenClash-ru.svg)](https://github.com/gooog1111/luci-i18n-OpenClash-ru.git)
+[__PROTECTED_11__](https://github.com/gooog1111/luci-i18n-OpenClash-ru.git)
 
-## 📄 Лицензия
+## 📄 License
 
-Этот проект распространяется под той же лицензией, что и оригинальный OpenClash.
+This project is distributed under the same license as the original OpenClash.
 
-## 🔗 Ссылки
+## 🔗 Links
 
 - [Официальный репозиторий OpenClash](https://github.com/vernesong/OpenClash)
 - [Документация OpenClash](https://github.com/vernesong/OpenClash/wiki)
 
-## Поддержать проект
+## Support the project
 
-Выберите удобный способ:
+Choose a convenient method:
 
 <p align="center">
   <a href="https://yoomoney.ru/fundraise/1IJBVM8MJMG.260624" target="_blank">
@@ -154,21 +154,21 @@ uci commit luci
   </a>
 </p>
 
-### USDT/USDC/GRAM (TON)
+## # USDT/USDC/GRAM (TON)
 
-Адрес для перевода:  
+Address for transfer:  
 ```bash
 UQA73kPkNHudFD5yV7DuP-GuXO1ExTpqH0gNioQX8sY4fU6L
 ```
-### BTC (Bitcoin)
+## # BTC (Bitcoin)
 
-Адрес для перевода:  
+Address for transfer:  
 ```bash
 bc1q6ny6adsgp0s5ngsng4adclqq9d6hyvqw625g8f
 ```
-### ETH (Etherium)
+## # ETH (Etherium)
 
-Адрес для перевода:  
+Address for transfer:  
 ```bash
 bc1q6ny6adsgp0s5ngsng4adclqq9d6hyvqw625g8f
 ```
