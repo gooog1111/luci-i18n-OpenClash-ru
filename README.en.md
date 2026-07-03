@@ -13,7 +13,7 @@
 
 
 <!-- STATS_START -->
-<!-- auto-updated by GitHub Actions · 2026-07-03 05:00 UTC -->
+<!-- auto-updated by GitHub Actions · 2026-07-03 06:00 UTC -->
 
 [![Views local](https://img.shields.io/badge/Views_local-0-ff6900?style=for-the-badge&logo=github)](https://github.com/gooog1111/luci-i18n-OpenClash-ru)
 [![Views GitHub](https://img.shields.io/badge/Views_GitHub-17-ff6900?style=for-the-badge&logo=github)](https://github.com/gooog1111/luci-i18n-OpenClash-ru)
@@ -50,7 +50,7 @@
 
 
 <!-- ISSUES_START -->
-<!-- auto-updated by GitHub Actions · 2026-07-03 05:00 UTC -->
+<!-- auto-updated by GitHub Actions · 2026-07-03 06:00 UTC -->
 
 ## Issues
 
@@ -96,7 +96,7 @@ Russian localization for the OpenClash interface - the Clash client for OpenWrt.
 - 📱 **Adaptive design** - correct display on all devices
 - ⚡ **Light weight** - minimal impact on performance
 
-## 📦 Installation
+## 📦 Установка
 
 ## # Manual installation
 
@@ -105,7 +105,7 @@ Russian localization for the OpenClash interface - the Clash client for OpenWrt.
 wget -O /usr/lib/lua/luci/i18n/openclash.ru.lmo "https://github.com/gooog1111/luci-i18n-openclash-ru/releases/latest/download/openclash.ru.lmo"
 ```
 
-## 🔧 Language settings
+## 🔧 Настройка языка
 
 After installation:
 
@@ -126,7 +126,7 @@ If you find errors in the translation or have suggestions for improvement:
 1. Create an Issue in this repository
 2. Or suggest edits via Pull Request
 
-## 🤝 Project support
+## 🤝 Поддержка проекта
 
 If this translation was useful to you, please give the repository a ⭐ star!
 
