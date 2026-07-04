@@ -13,12 +13,12 @@
 
 
 <!-- STATS_START -->
-<!-- auto-updated by GitHub Actions · 2026-07-04 05:00 UTC -->
+<!-- auto-updated by GitHub Actions · 2026-07-04 06:01 UTC -->
 
 [![Views local](https://img.shields.io/badge/Views_local-0-ff6900?style=for-the-badge&logo=github)](https://github.com/gooog1111/luci-i18n-OpenClash-ru)
-[![Views GitHub](https://img.shields.io/badge/Views_GitHub-19-ff6900?style=for-the-badge&logo=github)](https://github.com/gooog1111/luci-i18n-OpenClash-ru)
+[![Views GitHub](https://img.shields.io/badge/Views_GitHub-20-ff6900?style=for-the-badge&logo=github)](https://github.com/gooog1111/luci-i18n-OpenClash-ru)
 [![Unique visitors](https://img.shields.io/badge/Unique-8-blue?style=for-the-badge&logo=github)](https://github.com/gooog1111/luci-i18n-OpenClash-ru)
-[![Clones](https://img.shields.io/badge/Clones-728-purple?style=for-the-badge&logo=github)](https://github.com/gooog1111/luci-i18n-OpenClash-ru)
+[![Clones](https://img.shields.io/badge/Clones-861-purple?style=for-the-badge&logo=github)](https://github.com/gooog1111/luci-i18n-OpenClash-ru)
 [![Stars](https://img.shields.io/badge/Stars-1-yellow?style=for-the-badge&logo=github)](https://github.com/gooog1111/luci-i18n-OpenClash-ru/stargazers)
 [![Forks](https://img.shields.io/badge/Forks-0-green?style=for-the-badge&logo=github)](https://github.com/gooog1111/luci-i18n-OpenClash-ru/network/members)
 [![Downloads latest release](https://img.shields.io/badge/Downloads_latest_release-26-brightgreen?style=for-the-badge)](https://github.com/gooog1111/luci-i18n-OpenClash-ru/releases/latest)
@@ -50,7 +50,7 @@
 
 
 <!-- ISSUES_START -->
-<!-- auto-updated by GitHub Actions · 2026-07-04 05:00 UTC -->
+<!-- auto-updated by GitHub Actions · 2026-07-04 06:01 UTC -->
 
 ## Issues
 
