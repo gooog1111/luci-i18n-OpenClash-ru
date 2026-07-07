@@ -13,7 +13,7 @@
 
 
 <!-- STATS_START -->
-<!-- auto-updated by GitHub Actions · 2026-07-07 18:00 UTC -->
+<!-- auto-updated by GitHub Actions · 2026-07-07 19:01 UTC -->
 
 [![Views local](https://img.shields.io/badge/Views_local-0-ff6900?style=for-the-badge&logo=github)](https://github.com/gooog1111/luci-i18n-OpenClash-ru)
 [![Views GitHub](https://img.shields.io/badge/Views_GitHub-23-ff6900?style=for-the-badge&logo=github)](https://github.com/gooog1111/luci-i18n-OpenClash-ru)
@@ -21,8 +21,8 @@
 [![Clones](https://img.shields.io/badge/Clones-1394-purple?style=for-the-badge&logo=github)](https://github.com/gooog1111/luci-i18n-OpenClash-ru)
 [![Stars](https://img.shields.io/badge/Stars-1-yellow?style=for-the-badge&logo=github)](https://github.com/gooog1111/luci-i18n-OpenClash-ru/stargazers)
 [![Forks](https://img.shields.io/badge/Forks-0-green?style=for-the-badge&logo=github)](https://github.com/gooog1111/luci-i18n-OpenClash-ru/network/members)
-[![Downloads latest release](https://img.shields.io/badge/Downloads_latest_release-27-brightgreen?style=for-the-badge)](https://github.com/gooog1111/luci-i18n-OpenClash-ru/releases/latest)
-[![Downloads total assets](https://img.shields.io/badge/Downloads_total_assets-27-brightgreen?style=for-the-badge)](https://github.com/gooog1111/luci-i18n-OpenClash-ru/releases)
+[![Downloads latest release](https://img.shields.io/badge/Downloads_latest_release-28-brightgreen?style=for-the-badge)](https://github.com/gooog1111/luci-i18n-OpenClash-ru/releases/latest)
+[![Downloads total assets](https://img.shields.io/badge/Downloads_total_assets-28-brightgreen?style=for-the-badge)](https://github.com/gooog1111/luci-i18n-OpenClash-ru/releases)
 
 <!-- STATS_END -->
 
@@ -50,7 +50,7 @@
 
 
 <!-- ISSUES_START -->
-<!-- auto-updated by GitHub Actions · 2026-07-07 18:00 UTC -->
+<!-- auto-updated by GitHub Actions · 2026-07-07 19:01 UTC -->
 
 ## Issues
 
