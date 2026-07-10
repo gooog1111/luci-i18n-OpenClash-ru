@@ -13,7 +13,7 @@
 
 
 <!-- STATS_START -->
-<!-- auto-updated by GitHub Actions · 2026-07-10 14:01 UTC -->
+<!-- auto-updated by GitHub Actions · 2026-07-10 15:01 UTC -->
 
 [![Views local](https://img.shields.io/badge/Views_local-0-ff6900?style=for-the-badge&logo=github)](https://github.com/gooog1111/luci-i18n-OpenClash-ru)
 [![Views GitHub](https://img.shields.io/badge/Views_GitHub-21-ff6900?style=for-the-badge&logo=github)](https://github.com/gooog1111/luci-i18n-OpenClash-ru)
@@ -50,7 +50,7 @@
 
 
 <!-- ISSUES_START -->
-<!-- auto-updated by GitHub Actions · 2026-07-10 14:01 UTC -->
+<!-- auto-updated by GitHub Actions · 2026-07-10 15:01 UTC -->
 
 ## Issues
 
@@ -83,67 +83,67 @@
 
 ## Russian Translation for OpenClash
 
-## 📝 Description
+## 📝 Описание
 
-Russian localization for the OpenClash interface - the Clash client for OpenWrt. This package provides a complete translation of the OpenClash management interface into Russian.
+Русская локализация для интерфейса OpenClash - клиента Clash для OpenWrt. Этот пакет предоставляет полный перевод интерфейса управления OpenClash на русский язык.
 
-> ⚠️ **Note**: The translation was made using artificial intelligence and may contain inaccuracies. We would appreciate your corrections and suggestions!
+> ⚠️ **Примечание**: Перевод был выполнен с помощью искусственного интеллекта и может содержать неточности. Мы будем благодарны за ваши исправления и предложения!
 
-## ✨ Features
+## ✨ Особенности
 
-- 🎯 **Full translation** - all interface elements are translated into Russian
-- 🔧 **Technical accuracy** - all technical terms and service names are saved
-- 📱 **Adaptive design** - correct display on all devices
-- ⚡ **Light weight** - minimal impact on performance
+- 🎯 **Полный перевод** - все элементы интерфейса переведены на русский язык
+- 🔧 **Техническая точность** - сохранены все технические термины и названия сервисов
+- 📱 **Адаптивный дизайн** - корректное отображение на всех устройствах
+- ⚡ **Лёгкий вес** - минимальное влияние на производительность
 
-## 📦 Installation
+## 📦 Установка
 
-## # Manual installation
+## # Ручная установка
 
-2. Install the package:
+2. Установите пакет:
 ```bash
 wget -O /usr/lib/lua/luci/i18n/openclash.ru.lmo "https://github.com/gooog1111/luci-i18n-openclash-ru/releases/latest/download/openclash.ru.lmo"
 ```
 
-## 🔧 Language settings
+## 🔧 Настройка языка
 
-After installation:
+После установки:
 
-1. Go to **System → Language and Style**
-2. Select **Russian** from the drop-down list
-3. Click **Save and Apply**
+1. Перейдите в **Система → Язык и стиль**
+2. Выберите **Русский (Russian)** в выпадающем списке
+3. Нажмите **Сохранить и применить**
 
-Or install the language via the command line:
+Или установите язык через командную строку:
 ```bash
 uci set luci.main.lang=ru
 uci commit luci
 ```
 
-## 🐛 Error messages
+## 🐛 Сообщение об ошибках
 
-If you find errors in the translation or have suggestions for improvement:
+Если вы нашли ошибки в переводе или у вас есть предложения по улучшению:
 
-1. Create an Issue in this repository
-2. Or suggest edits via Pull Request
+1. Создайте Issue в этом репозитории
+2. Или предложите правки через Pull Request
 
-## 🤝 Project support
+## 🤝 Поддержка проекта
 
-If this translation was useful to you, please give the repository a ⭐ star!
+Если этот перевод был вам полезен, поставьте ⭐ звезду репозиторию!
 
 [__PROTECTED_11__](https://github.com/gooog1111/luci-i18n-OpenClash-ru.git)
 
-## 📄 License
+## 📄 Лицензия
 
-This project is distributed under the same license as the original OpenClash.
+Этот проект распространяется под той же лицензией, что и оригинальный OpenClash.
 
-## 🔗 Links
+## 🔗 Ссылки
 
 - [Официальный репозиторий OpenClash](https://github.com/vernesong/OpenClash)
 - [Документация OpenClash](https://github.com/vernesong/OpenClash/wiki)
 
-## Support the project
+## Поддержать проект
 
-Choose a convenient method:
+Выберите удобный способ:
 
 <p align="center">
   <a href="https://yoomoney.ru/fundraise/1IJBVM8MJMG.260624" target="_blank">
@@ -156,19 +156,19 @@ Choose a convenient method:
 
 ## # USDT/USDC/GRAM (TON)
 
-Address for transfer:  
+Адрес для перевода:  
 ```bash
 UQA73kPkNHudFD5yV7DuP-GuXO1ExTpqH0gNioQX8sY4fU6L
 ```
 ## # BTC (Bitcoin)
 
-Address for transfer:  
+Адрес для перевода:  
 ```bash
 bc1q6ny6adsgp0s5ngsng4adclqq9d6hyvqw625g8f
 ```
 ## # ETH (Etherium)
 
-Address for transfer:  
+Адрес для перевода:  
 ```bash
 bc1q6ny6adsgp0s5ngsng4adclqq9d6hyvqw625g8f
 ```
